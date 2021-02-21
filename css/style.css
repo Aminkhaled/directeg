@@ -119,6 +119,8 @@ nav.nav-bottom ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
 }
 nav.nav-bottom ul li{
     list-style: none;
@@ -227,4 +229,25 @@ nav.nav-bottom ul li a:hover{
     font-size: 30px;
     border: none;
     border-radius: 10px;
+}
+/*
+======================
+Footer
+======================
+
+*/
+
+footer{
+    background-color: #555555;
+    padding: 100px 0;
+    z-index: 3;
+}
+footer .copyright{
+    margin-top: 25px;
+}
+footer .copyright h3 a{
+     color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-right: 15px;
 }

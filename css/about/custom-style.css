@@ -1,5 +1,5 @@
 body{
-    background:url("../img/about-us-bg.png") no-repeat fixed ;
+    background:url("../../img/about-us-bg.png") no-repeat fixed ;
     background-size: cover;
     height: 900px;
     z-index: 1;
@@ -57,7 +57,7 @@ Sections
 /*Footer*/
 footer{
     background-color: #555555;
-    padding: 110px 0;
+    padding: 50px 0;
     z-index: 3;
 }
 

@@ -1,0 +1,101 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/info.png") no-repeat fixed ;
+    background-size: cover;
+    height: 90vh;
+    z-index: 1;
+}
+
+/*
+============
+Sections
+============
+
+*/
+#sections{
+    padding: 100px 0;
+    text-align: left;
+}
+#sections .section-title h2 a{
+    font-size: 1.8em;
+    color: white;
+}
+#sections .section-title{
+
+    width: 100%;
+    text-align: left;
+    margin-left: 20%;
+
+}
+#sections .section-back{
+
+    width: 60%;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+#sections .section-back a{
+
+    width: 100%;
+    text-align: center;
+    padding: 15px 40px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.7);
+
+}
+#sections .hotel-info{
+    margin-right: 200px;
+    margin-top: 20px;
+}
+#sections .hotel-info h3{
+    margin-top: 5px;
+    font-size: 1.5em;
+    color: white;
+}
+#sections .hotel-info h3 span{
+    color: #bada55;
+    font-size: 0.9em;
+}
+/*
+================
+Media Query for Info
+================
+*/
+@media only screen and (max-width: 760px){
+    #sections .section-title{
+        text-align: center;
+        margin-left: 0;
+    }
+    #sections .hotel-info {
+        /* margin-right: 200px; */
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    #sections .section-title{
+        text-align: center;
+        margin-left: 0;
+    }
+    #sections .hotel-info {
+        /* margin-right: 200px; */
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    #sections .section-back {
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

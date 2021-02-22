@@ -251,3 +251,75 @@ footer .copyright h3 a{
     font-weight: 500;
     margin-right: 15px;
 }
+
+/*
+===================
+
+Media Quries
+===================
+*/
+@media only screen and (max-width: 760px){
+    #wix .intro {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #wix .intro a{
+        margin-left: 0;
+    }
+    /* Nav Query*/
+     .nav-top .logo{
+         width: 100%;
+         -ms-flex: 100%;
+         flex: 100%;
+         text-align: center;
+         margin-bottom: 15px;
+     }
+    .nav-top .second-logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .nav-top .text-second-logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    nav.nav-bottom ul {
+
+        text-align: center;
+
+    }
+    nav.nav-bottom ul li {
+        list-style: none;
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+    }
+    /* Form query*/
+    #form .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    #form form .form-group input{
+        padding: 1em 10em;
+    }
+    /*
+    Footer Query
+    */
+    footer {
+        background-color: #555555;
+        padding: 50px 0;
+        z-index: 3;
+    }
+    footer .copyright {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}

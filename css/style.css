@@ -10,8 +10,6 @@ body{
     background-size: cover;
     height: 900px;
     z-index: 1;
-
-
 }
 /*
 ====================
@@ -66,6 +64,7 @@ body{
 #nav{
     padding: 20px 0;
     background-color: rgba(255,255,255,0.6);
+    transition: background-color 1s;
 
 }
 #nav .nav-top{
@@ -239,7 +238,7 @@ Footer
 
 footer{
     background-color: #555555;
-    padding: 100px 0;
+    padding: 110px 0;
     z-index: 3;
 }
 footer .copyright{

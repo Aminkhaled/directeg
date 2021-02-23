@@ -8,6 +8,8 @@
     <link rel='icon' href='img/logo.png' type='image/x-icon'/>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/empty/custom-style.css">
+
 </head>
 <body>
 
@@ -37,7 +39,7 @@
             <div class="second-logo">
                 <img src="img/second-logo.png" alt="logo">
                 <div class="text-second-logo" >
-                    <h2  class="wow slideInLeft" data-wow-duration="1s" >
+                    <h2  class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
                         <span>Pyramid Challenge</span>
                         <span>Digital Hotels</span>
                     </h2>
@@ -50,7 +52,7 @@
             <div class="addational-register">
                 <div class="language btn">
                     <label for="language-switcher"></label>
-                    <select name="#" id="language-switcher" class="wow bounceIn" data-wow-duration="1s" >
+                    <select name="#" id="language-switcher" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
                         <option value="#">
                             English</option>
                         <option value="#">Arabic</option>
@@ -67,7 +69,7 @@
             <!--        addational-register-->
         </div>
         <nav class="nav-bottom">
-            <ul class="wow fadeInDownBig" data-wow-duration="1s" >
+            <ul class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1s">
                 <li><a href="index.html">
                     Home
                 </a></li>
@@ -87,29 +89,15 @@
         </nav>
     </div>
 </section>
-
 <!-- end of nav-->
 <!-- start of form-->
-<section id="form">
-        <div class="form-title">
-            <h2><a href="#">
-                Login To Your Hotel Account
-            </a></h2>
-        </div>
+<section id="sections-empty">
 
     <div class="container">
+        <div class="section-back wow fadeInLeft" data-wow-delay="1s" data-wow-duration="1s">
+            <a href="about-us.html">Back to Sections</a>
+        </div>
 
-    <form action="#" class="form">
-            <div class="form-group wow slideOutUp"  data-wow-duration="1s" >
-                <label for="number"></label>
-                <input type="text" class="form-control" id="number" placeholder="Enter your hotel number">
-            </div>
-            <div class="form-group wow slideOutUp"  data-wow-duraton="1s">
-                <label for="password"></label>
-                <input type="password" class="form-control"  id="password" placeholder="Enter your hotel password">
-            </div>
-            <button class="submit wow slideOutUp"  data-wow-duraton="2s"  >Sign Up</button>
-        </form>
     </div>
 </section>
 <!-- end of form -->
@@ -122,13 +110,19 @@
                 </a>
             </h3>
         </div>
-        <div class="copyright-logo">
-            <img src="img/footer-logo.png"  class="wow fadeInLeftBig" data-wow-duraton="2s"  alt="footer-logo">
+        <div class="copyright-logo wow fadeInLeft" data-wow-delay="2s" data-wow-duration="2s">
+            <img src="img/footer-logo.png" alt="footer-logo">
         </div>
     </div>
 </footer>
 <script src="js/jquery.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/app.js"></script>
+<script>
+    setTimeout(function () {
+        window.location.href="about-us.html";
+
+    },2800);
+</script>
 </body>
 </html>

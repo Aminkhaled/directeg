@@ -99,6 +99,29 @@ body{
     text-decoration: none;
     transition: color 1s ease-in;
 }
+#nav .addational-register select{
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 1s ease-in;
+}
+#nav .addational-register select option{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 1s ease-in;
+}
 #nav .addational-register a:hover{
     color: #a0138e;
 }
@@ -222,7 +245,7 @@ nav.nav-bottom ul li a:hover{
 #form button.submit{
     text-align: center;
     margin-top: 20px;
-    padding: 50px 100px;
+    padding: 40px 80px;
     background-color: rgba(0,0,0,0.7);
     color: white;
     font-size: 30px;

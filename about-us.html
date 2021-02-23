@@ -6,6 +6,7 @@
 
     <title>Directeg</title>
     <link rel='icon' href='img/logo.png' type='image/x-icon'/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about/custom-style.css">
 
@@ -37,8 +38,8 @@
             <!--        logo -->
             <div class="second-logo">
                 <img src="img/second-logo.png" alt="logo">
-                <div class="text-second-logo">
-                    <h2>
+                <div class="text-second-logo" >
+                    <h2  class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
                         <span>Pyramid Challenge</span>
                         <span>Digital Hotels</span>
                     </h2>
@@ -50,7 +51,13 @@
             <!--        second logo -->
             <div class="addational-register">
                 <div class="language btn">
-                    <a  href="#">English</a>
+                    <label for="language-switcher"></label>
+                    <select name="#" id="language-switcher" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
+                        <option value="#">
+                            English</option>
+                        <option value="#">Arabic</option>
+
+                    </select>
                 </div>
                 <div class="register btn">
                     <a  href="#">Register New Guest</a>
@@ -62,26 +69,27 @@
             <!--        addational-register-->
         </div>
         <nav class="nav-bottom">
-            <ul>
+            <ul class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1s">
                 <li><a href="index.html">
                     Home
                 </a></li>
                 <li><a href="about-us.html">
                     About Us
                 </a></li>
-                <li><a href="#">
+                <li><a href="empty.html">
                     Buy Digital Key
                 </a></li>
-                <li><a href="#">
+                <li><a href="empty.html">
                     FAQ
                 </a></li>
-                <li><a href="#">
+                <li><a href="contact.html">
                     Contact Us
                 </a></li>
             </ul>
         </nav>
     </div>
 </section>
+
 <!-- end of nav-->
 <!-- start of form-->
 <section id="sections">
@@ -93,81 +101,81 @@
             </a></h2>
         </div>
         <div class="section-row">
-            <div class="section-field">
+            <div class="section-field wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="my-hotel-info.html">
                         My Hotel Info
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="my-hotel-info.html">
                         My Hotel Guests Report
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="my-hotel-info.html">
                         Hotel Cities Report                    </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         Hotel Rooms Report
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         Offer Of The Month
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         Withdraw Profits                    </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         My Hotel Info
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         My Hotel Guests Report
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         Hotel Cities Report                    </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         Hotel Rooms Report
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         Offer Of The Month
                     </a>
                 </h2>
             </div>
-            <div class="section-field">
+            <div class="section-field  wow rotateIn" data-wow-duration="2s">
                 <h2>
                     <a href="#">
                         Withdraw Profits                    </a>
@@ -193,6 +201,7 @@
     </div>
 </footer>
 <script src="js/jquery.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

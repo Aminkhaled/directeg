@@ -8,6 +8,7 @@
     <link rel='icon' href='img/logo.png' type='image/x-icon'/>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact/custom-style.css">
 </head>
 <body>
 
@@ -37,7 +38,7 @@
             <div class="second-logo">
                 <img src="img/second-logo.png" alt="logo">
                 <div class="text-second-logo" >
-                    <h2  class="wow slideInLeft" data-wow-duration="1s" >
+                    <h2  class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
                         <span>Pyramid Challenge</span>
                         <span>Digital Hotels</span>
                     </h2>
@@ -50,7 +51,7 @@
             <div class="addational-register">
                 <div class="language btn">
                     <label for="language-switcher"></label>
-                    <select name="#" id="language-switcher" class="wow bounceIn" data-wow-duration="1s" >
+                    <select name="#" id="language-switcher" class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
                         <option value="#">
                             English</option>
                         <option value="#">Arabic</option>
@@ -67,7 +68,7 @@
             <!--        addational-register-->
         </div>
         <nav class="nav-bottom">
-            <ul class="wow fadeInDownBig" data-wow-duration="1s" >
+            <ul class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1s">
                 <li><a href="index.html">
                     Home
                 </a></li>
@@ -91,24 +92,46 @@
 <!-- end of nav-->
 <!-- start of form-->
 <section id="form">
-        <div class="form-title">
-            <h2><a href="#">
-                Login To Your Hotel Account
-            </a></h2>
-        </div>
+    <div class="form-title">
+        <h2 class="wow fadeInDown" data-wow-delay="1s" data-wow-duration="2s"><a href="#">
+            Contact Us
+        </a></h2>
+        <p  class="wow fadeInRight" data-wow-delay="2s" data-wow-duration="2s">
+            if there is any problem with your hotel account
+            do not hesitate to contact us
+        </p>
+        <p class="wow fadeInRight" data-wow-delay="3s" data-wow-duration="3s"><strong>
+            support@pyramid-challenge.com
+        </strong></p>
+    </div>
 
     <div class="container">
 
-    <form action="#" class="form">
-            <div class="form-group wow slideOutUp"  data-wow-duration="1s" >
+        <form action="#" class="form">
+            <div class="form-group wow fadeInRight" data-wow-delay="2s" data-wow-duration="2s">
+                <label for="name"></label>
+                <input type="text" class="form-control" id="name" placeholder="Full Name">
+            </div>
+            <div class="form-group wow fadeInUp" data-wow-delay="4s" data-wow-duration="4s">                <label for="email"></label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group wow fadeOutLeftBig" data-wow-delay="4s" data-wow-duration="4s">
                 <label for="number"></label>
-                <input type="text" class="form-control" id="number" placeholder="Enter your hotel number">
+                <input type="number" class="form-control" id="number" placeholder="Number">
             </div>
-            <div class="form-group wow slideOutUp"  data-wow-duraton="1s">
-                <label for="password"></label>
-                <input type="password" class="form-control"  id="password" placeholder="Enter your hotel password">
+       <div class="form-group wow fadeOut" data-wow-delay="4s" data-wow-duration="4s">
+           <select name="option" id="option">
+               <option value="#">What is your issue ?</option>
+               <option value="#">Logging into Account</option>
+               <option value="#">Account Issue</option>
+               <option value="#">Information</option>
+           </select>
+       </div>
+            <div class="form-group wow fadeOutUp" data-wow-delay="4s" data-wow-duration="4s">                <textarea name="#" id="textarea" cols="100" rows="10">
+                    Lets know what you need help with....
+                </textarea>
             </div>
-            <button class="submit wow slideOutUp"  data-wow-duraton="2s"  >Sign Up</button>
+            <button class="submit">Sign Up</button>
         </form>
     </div>
 </section>
@@ -123,7 +146,7 @@
             </h3>
         </div>
         <div class="copyright-logo">
-            <img src="img/footer-logo.png"  class="wow fadeInLeftBig" data-wow-duraton="2s"  alt="footer-logo">
+            <img src="img/footer-logo.png" alt="footer-logo">
         </div>
     </div>
 </footer>

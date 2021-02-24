@@ -367,3 +367,10 @@ Media Quries
         margin-right: 15px;
     }
 }
+@media only screen and (max-width: 320px){
+footer .copyright h3 a {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 15px;
+}}

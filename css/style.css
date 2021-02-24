@@ -189,6 +189,7 @@ nav.nav-bottom ul li a:hover{
 #form form .form-group input{
     padding: 1em 20em;
     border-radius: 5px;
+    color: white;
     border: none;
     background-color: rgba(0,0,0,0.7);
 }
@@ -251,6 +252,12 @@ nav.nav-bottom ul li a:hover{
     font-size: 30px;
     border: none;
     border-radius: 10px;
+    transition: background-color 1s;
+}
+#form button.submit:hover{
+    background-color: rgba(0,0,0,0.9);
+    font-weight: 700;
+    transform: scale(0.8);
 }
 /*
 ======================

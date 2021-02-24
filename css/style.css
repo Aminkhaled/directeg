@@ -128,8 +128,12 @@ body{
 #nav .addational-register .language{
     text-align: center;
 }
+#nav .addational-register .sign {
+    text-align: center;
+}
 #nav .addational-register .sign a{
     padding: 0.5em 4.4em;
+
 }
 
 nav.nav-bottom{
@@ -351,7 +355,8 @@ Media Quries
         margin-top: 25px;
         margin-bottom: 25px;
     }
-}
+    }
+
 @media only screen and (max-width: 480px){
     #form form .form-group input{
         padding: 1em 5em;

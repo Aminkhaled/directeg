@@ -45,17 +45,15 @@ Sections
     text-align: left;
 
 }
-#sections .section-back a{
-
+#sections-hotel .section-back a {
     width: 100%;
     text-align: center;
-    padding: 15px 40px;
+    padding: 8px 16px;
     color: white;
-    font-size: 1.2em;
+    font-size: 12px;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: rgba(0,0,0,0.7);
-
 }
 #sections .hotel-info{
     margin-right: 200px;

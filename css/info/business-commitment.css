@@ -47,11 +47,11 @@ Sections
 #sections-hotel .section-back a {
     width: 100%;
     text-align: center;
-    padding: 12px 24px;
+    padding: 8px 16px;
     color: white;
-    font-size: 1em;
+    font-size: 12px;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: rgba(0,0,0,0.7);
 }
 #sections-hotel .hotel-info{
@@ -64,6 +64,7 @@ Sections
     color: white;
     margin-bottom: 15px;
 }
+
 #sections-hotel .hotel-info p{
     width: 80%;
     color: white;

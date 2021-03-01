@@ -45,7 +45,8 @@ Sections
     text-align: left;
 
 }
-#sections-hotel .section-back a {
+#sections .section-back a {
+
     width: 100%;
     text-align: center;
     padding: 8px 16px;
@@ -54,6 +55,7 @@ Sections
     font-weight: 700;
     border-radius: 4px;
     background-color: rgba(0,0,0,0.7);
+
 }
 #sections .hotel-info{
     margin-right: 200px;

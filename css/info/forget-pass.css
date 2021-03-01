@@ -6,7 +6,7 @@
 
 }
 body{
-    background:url("../../img/hotel-room.png") no-repeat center center fixed;
+    background:url("../../img/pass-bg.png") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -146,6 +146,33 @@ Select Options
     font-size: 15px;
     text-align: center;
 }
+
+/*Overwtite on main style*/
+#form{
+    padding: 50px 0;
+}
+#form .form-control{
+    transition: background-color 2s;
+}
+#form .form-control:hover{
+    background-color:#b0b1a6 ;
+}
+#form button.change{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+#form button.change:hover{
+    background-color: #b0b1a6;
+    font-weight: 700;
+    transform: scale(0.8);
+}
 /*
 ================
 Media Query for Info
@@ -169,6 +196,11 @@ Media Query for Info
     }
     .options select{
         text-indent: 0;
+    }
+    #sections-hotel .section-back {
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 480px){
@@ -194,5 +226,10 @@ Media Query for Info
     }
     .options select{
         text-indent: 0;
+    }
+    #sections-hotel .section-back {
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
     }
 }

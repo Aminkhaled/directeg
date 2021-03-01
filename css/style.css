@@ -6,8 +6,12 @@
 
 }
 body{
-    background:url("../img/hero-bg.png") no-repeat fixed ;
+    background:url("../img/hero-bg.png") no-repeat center center fixed ;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
     height: 900px;
     z-index: 1;
 }

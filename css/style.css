@@ -289,6 +289,22 @@ footer .copyright h3 a{
     font-weight: 500;
     margin-right: 15px;
 }
+/*
+====================
+Mobile Menu
+====================
+*/
+.menu-mobile{
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.menu-mobile .icon-span{
+  display: none;
+}
+.menu-mobile .nav-bottom{
+    display: none;
+}
 
 /*
 ===================
@@ -360,6 +376,20 @@ Media Quries
         margin-top: 25px;
         margin-bottom: 25px;
     }
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: 410px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.2);
+        padding: 15px 15px;
+        cursor: pointer;
+        display: block;
+    }
+    .nav-bottom{
+        display: none;
+    }
+
     }
 
 @media only screen and (max-width: 480px){
@@ -376,6 +406,20 @@ Media Quries
         font-weight: 500;
         margin-right: 15px;
     }
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: 410px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.2);
+        padding: 15px 15px;
+        cursor: pointer;
+        display: block;
+    }
+    .nav-bottom{
+        display: none;
+    }
+
 }
 @media only screen and (max-width: 320px){
 footer .copyright h3 a {
@@ -383,4 +427,23 @@ footer .copyright h3 a {
     font-size: 12px;
     font-weight: 500;
     margin-right: 15px;
-}}
+}
+    .nav-bottom{
+        display: none;
+    }
+
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: 410px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.2);
+        padding: 15px 15px;
+        cursor: pointer;
+        display: block;
+    }
+}
+.active{
+    display: block;
+    margin-top: 50px;
+}

@@ -14,6 +14,8 @@ body{
 
     height: 900px;
     z-index: 1;
+    font-family: Arial,Helvetica,sans-serif;
+
 }
 /*
 ====================
@@ -66,7 +68,7 @@ body{
 ================
 */
 #nav{
-    padding: 20px 0;
+    padding: 40px 0;
     background-color: rgba(255,255,255,0.6);
     transition: background-color 1s;
 
@@ -78,19 +80,25 @@ body{
     justify-content: space-evenly;
 }
 
+#nav .second-logo img{
+    display: block;
+    text-align: center;
+}
 #nav .text-second-logo h2 span{
     display: block;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
     margin-top: 5px;
 }
 #nav .text-second-logo p{
     margin-top: 30px;
-    font-size: 1.1em;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
 }
 #nav .addational-register .btn{
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 #nav .addational-register a{
     margin-top: 20px;
@@ -131,6 +139,19 @@ body{
 }
 #nav .addational-register .language{
     text-align: center;
+}
+
+/*
+    padding: 10px 30px;
+    border-radius: 0;
+*/
+#nav .addational-register #language-switcher li{
+    margin-bottom: 18px;
+   list-style: none;
+
+}
+#nav .addational-register #language-switcher img{
+    margin-right: 10px;
 }
 #nav .addational-register .sign {
     text-align: center;
@@ -252,18 +273,19 @@ nav.nav-bottom ul li a:hover{
 
 
 
-#form button.submit{
+#form .submit{
     text-align: center;
     margin-top: 20px;
-    padding: 40px 80px;
+    padding: 32px 64px;
     background-color: rgba(0,0,0,0.7);
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     border: none;
     border-radius: 10px;
     transition: background-color 1s;
+    text-decoration: none;
 }
-#form button.submit:hover{
+#form .submit:hover{
     background-color: rgba(0,0,0,0.9);
     font-weight: 700;
     transform: scale(0.8);
@@ -335,6 +357,10 @@ Media Quries
         flex: 100%;
         text-align: center;
         margin-bottom: 15px;
+
+    }
+    #nav .second-logo img{
+        display: unset;
     }
     .nav-top .text-second-logo{
         width: 100%;
@@ -419,6 +445,9 @@ Media Quries
     .nav-bottom{
         display: none;
     }
+    #nav .second-logo img{
+        display: unset;
+    }
 
 }
 @media only screen and (max-width: 320px){
@@ -441,6 +470,9 @@ footer .copyright h3 a {
         padding: 15px 15px;
         cursor: pointer;
         display: block;
+    }
+    #nav .second-logo img{
+        display: unset;
     }
 }
 .active{

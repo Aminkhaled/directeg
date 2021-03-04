@@ -62,6 +62,9 @@ tr th{
 .gold-info li a span{
     color: green;
 }
+.img-gold img{
+    width: 130px;
+}
 /*
 ================
 Media Query for Info

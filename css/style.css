@@ -429,6 +429,22 @@ Media Quries
         margin-top: 25px;
         margin-bottom: 25px;
     }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4);
+    }
     .menu-mobile .icon-span{
         position: absolute;
         top: 410px;
@@ -436,6 +452,8 @@ Media Quries
         /* width: 60px; */
         background-color: rgba(0,0,0,0.2);
         padding: 15px 15px;
+        border-radius: 10px;
+
         cursor: pointer;
         display: block;
     }
@@ -466,8 +484,25 @@ Media Quries
         /* width: 60px; */
         background-color: rgba(0,0,0,0.2);
         padding: 15px 15px;
+        border-radius: 10px;
         cursor: pointer;
         display: block;
+    }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4);
     }
     .nav-bottom{
         display: none;
@@ -484,6 +519,22 @@ footer .copyright h3 a {
     font-weight: 500;
     margin-right: 15px;
 }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4);
+    }
     .nav-bottom{
         display: none;
     }
@@ -495,6 +546,7 @@ footer .copyright h3 a {
         /* width: 60px; */
         background-color: rgba(0,0,0,0.2);
         padding: 15px 15px;
+        border-radius: 10px;
         cursor: pointer;
         display: block;
     }

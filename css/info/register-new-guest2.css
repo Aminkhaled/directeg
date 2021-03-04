@@ -1,0 +1,117 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/register-guest2.png") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 50vh;
+    z-index: 1;
+    overflow-x: hidden;
+}
+#form .form-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 300px;
+     margin-bottom: 20px;
+}
+#form .form-title p{
+
+    -ms-flex: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+#form .form-title p span{
+    color:#bada55 ;
+    font-weight: 700;
+    font-size: 20px;
+}
+/*overwrite for select*/
+
+/*
+Select Options
+*/
+.options{
+    width: 100%;
+    text-align: center;
+}
+.options select{
+    width: inherit;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    border: none;
+    font-size: 18px;
+    text-indent: 35%;
+
+}
+.options select:focus{
+    background-color: white;
+    color: black;
+}
+.options select option{
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*checkbox*/
+
+#form form .checkbox-group{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+}
+#form form .checkbox-group .checkbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+#form form .checkbox-group .checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color:white;
+    background-color: rgba(0,0,0,0.8);
+}
+#form form .checkbox-group .checkbox span{
+    font-size: 15px;
+    color: white;
+}
+
+
+#form form .checkbox-confirm{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#form form .checkbox-confirm .checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+#form form .checkbox-confirm .checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color:white;
+    background-color: rgba(0,0,0,0.8);
+}
+#form form .checkbox-confirm .checkbox span{
+    font-size: 14px;
+    font-weight: 700;
+    color: whitesmoke;
+}

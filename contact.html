@@ -37,12 +37,25 @@
 
             <!--        second logo -->
             <div class="addational-register">
-                <div class="language btn">
-                    <label for="language-switcher"></label>
-                    <ul name="#" id="language-switcher" class="wow bounceIn" data-wow-duration="1s" >
-                        <li><a href="index-rtl.html"><img src="img/egypt.png" width="30" alt="">Arabic</a></li>
-                        <li><a href="index.html"><img src="img/usa.jpg" width="30" alt="">English</a></li>
-                    </ul>
+
+                <div class="switch-lang">
+                    <div class="current-lang"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png"/>
+                        <p class="lang-text">English</p>
+                    </div>
+                    <div class="lang-dropdown">
+                        <div class="selecting-lang"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Spain.png"/>
+                            <p class="lang-text">Español</p>
+                        </div>
+                        <div class="selecting-lang"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_France.png"/>
+                            <p class="lang-text">Français</p>
+                        </div>
+                        <div class="selecting-lang"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Italy.png"/>
+                            <p class="lang-text">Italiano</p>
+                        </div>
+                        <div class="selecting-lang"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Germany.png"/>
+                            <p class="lang-text">Deutsch</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="register btn">
                     <a  href="register-new-guest.html">Register New Guest</a>
@@ -52,32 +65,33 @@
                 </div>
             </div>
             <!--        addational-register-->
+        </div>
 
-        </div>
-        <div class="menu-mobile">
-            <a class="icon-span">
-                <img src="img/menu.svg.png" class="icon-mobile" alt="mobile-icon" width="30px" height="30px">
-            </a>
-        </div>
-        <nav class="nav-bottom">
-            <ul class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1" >
-                <li><a href="index.html">
-                    Home
-                </a></li>
-                <li><a href="about-us.html">
-                    About Us
-                </a></li>
-                <li><a href="empty.html">
-                    Buy Digital Key
-                </a></li>
-                <li><a href="empty.html">
-                    FAQ
-                </a></li>
-                <li><a href="contact.html">
-                    Contact Us
-                </a></li>
-            </ul>
-        </nav>
+    </div>
+    <div class="menu-mobile">
+        <a class="icon-span">
+            <img src="img/menu.svg.png" class="icon-mobile" alt="mobile-icon" width="30px" height="30px">
+        </a>
+    </div>
+    <nav class="nav-bottom">
+        <ul class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1" >
+            <li><a href="index.html">
+                Home
+            </a></li>
+            <li><a href="about-us.html">
+                About Us
+            </a></li>
+            <li><a href="empty.html">
+                Buy Digital Key
+            </a></li>
+            <li><a href="empty.html">
+                FAQ
+            </a></li>
+            <li><a href="contact.html">
+                Contact Us
+            </a></li>
+        </ul>
+    </nav>
     </div>
 </section>
 
@@ -85,14 +99,14 @@
 <!-- start of form-->
 <section id="form">
     <div class="form-title">
-        <h2 class="wow rotateOut"  data-wow-duration="2s"><a href="#">
+        <h2 ><a href="#">
             Contact Us
         </a></h2>
-        <p  class="wow rotateInDownRight"  data-wow-duration="2s">
+        <p >
             if there is any problem with your hotel account
             do not hesitate to contact us
         </p>
-        <p class="wow rotateInDownLeft"  data-wow-duration="2s"><strong>
+        <p><strong>
             support@pyramid-challenge.com
         </strong></p>
     </div>
@@ -100,18 +114,18 @@
     <div class="container">
 
         <form action="#" class="form">
-            <div class="form-group wow rotateOutUpRight" data-wow-duration="2s">
+            <div class="form-group">
                 <label for="name"></label>
                 <input type="text" class="form-control" id="name" placeholder="Full Name">
             </div>
-            <div class="form-group wow rotateOutUpLeft" data-wow-duration="2s">                <label for="email"></label>
+            <div class="form-group">                <label for="email"></label>
                 <input type="email" class="form-control" id="email" placeholder="Email">
             </div>
-            <div class="form-group wow rotateOutUpRight" data-wow-duration="2s">
+            <div class="form-group">
                 <label for="text"></label>
                 <input type="text" class="form-control" id="text" placeholder="Number">
             </div>
-       <div class="form-group wow fadeOut"  data-wow-duration="2s">
+       <div class="form-group">
            <select name="option" id="option">
                <option value="#">What is your issue ?</option>
                <option value="#">Logging into Account</option>
@@ -119,7 +133,7 @@
                <option value="#">Information</option>
            </select>
        </div>
-            <div class="form-group wow fadeOutUp"  data-wow-duration="2s" >
+            <div class="form-group" >
                 <label for="textarea"></label>
                 <textarea name="#" id="textarea" cols="50" rows="10" >
                 Message....

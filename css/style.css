@@ -163,6 +163,7 @@ body{
 
 nav.nav-bottom{
     width: 50%;
+    margin: 0 auto;
     margin-top: 40px;
 }
 nav.nav-bottom ul{
@@ -411,8 +412,8 @@ Media Quries
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin-left: 60px;
         margin-bottom: 50px;
+        margin-left: 0;
     }
     #form form .form-group input{
         padding: 1em 10em;
@@ -436,6 +437,7 @@ Media Quries
         left: 0;
         height: 100%;
         top: -40px;
+        z-index: 100;
     }
     nav.nav-bottom ul li{
         margin-bottom: 30px;
@@ -447,7 +449,7 @@ Media Quries
     }
     .menu-mobile .icon-span{
         position: absolute;
-        top: 410px;
+        top: -480px;
         right: 25px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.2);
@@ -471,6 +473,7 @@ Media Quries
         font-size: 1.2em;
         color: white;
     }
+
     footer .copyright h3 a {
         color: white;
         font-size: 0.7em;
@@ -479,7 +482,7 @@ Media Quries
     }
     .menu-mobile .icon-span{
         position: absolute;
-        top: 410px;
+        top: -480px;
         right: 25px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.2);
@@ -495,6 +498,7 @@ Media Quries
         left: 0;
         height: 100%;
         top: -40px;
+        z-index: 100;
     }
     nav.nav-bottom ul li{
         margin-bottom: 30px;
@@ -526,6 +530,7 @@ footer .copyright h3 a {
         left: 0;
         height: 100%;
         top: -40px;
+        z-index: 100;
     }
     nav.nav-bottom ul li{
         margin-bottom: 30px;
@@ -541,7 +546,7 @@ footer .copyright h3 a {
 
     .menu-mobile .icon-span{
         position: absolute;
-        top: 410px;
+        top: -480px;
         right: 25px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.2);
@@ -557,4 +562,70 @@ footer .copyright h3 a {
 .active{
     display: block;
     margin-top: 50px;
+}
+/*labguage swticher*/
+
+.switch-lang {
+    width: 110px;
+     z-index: 300;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.switch-lang:hover .lang-dropdown {
+    display: block;
+}
+.switcher-link {
+    color: #fff;
+}
+.switcher-link:hover {
+    color: #fff;
+}
+.current-lang {
+    background: rgba(0,0,0,0.4);
+    padding: 3px 5px 0px 5px;
+    border-radius: 5px;
+}
+.lang-flag {
+    width: 20px;
+    display: inline-block;
+}
+.lang-text {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.lang-dropdown {
+    display: none;
+    background: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.selecting-lang {
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+}
+.selecting-lang:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+.switch-lang ul > :first-child {
+    border-radius: 5px 5px 0px 0px;
+}
+.switch-lang ul > :last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+.switch-lang li {
+    list-style-type: none;
+}
+.menu-arrow {
+    display: inline-block;
+    width: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+.switch-lang p{
+    color: white;
 }

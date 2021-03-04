@@ -115,3 +115,207 @@ Select Options
     font-weight: 700;
     color: whitesmoke;
 }
+@media only screen and (max-width: 760px){
+    #wix .intro {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #wix .intro a{
+        margin-left: 0;
+    }
+    /* Nav Query*/
+    .nav-top .logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .nav-top .second-logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+
+    }
+    #nav .second-logo img{
+        display: unset;
+    }
+    .nav-top .text-second-logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    nav.nav-bottom ul {
+
+        text-align: center;
+
+    }
+    nav.nav-bottom ul li {
+        list-style: none;
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+    }
+    /* Form query*/
+    #form .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    #form form .form-group input{
+        padding: 1em 10em;
+    }
+    /*
+    Footer Query
+    */
+    footer {
+        background-color: #555555;
+        padding: 50px 0;
+        z-index: 3;
+    }
+    footer .copyright {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+        z-index: 100;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: -480px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.2);
+        padding: 15px 15px;
+        border-radius: 10px;
+
+        cursor: pointer;
+        display: block;
+    }
+    .nav-bottom{
+        display: none;
+    }
+    .checkbox-confirm{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    #form form .form-group input{
+        padding: 1em 5em;
+    }
+    #form .form-title h2 a {
+        font-size: 1.2em;
+        color: white;
+    }
+
+    footer .copyright h3 a {
+        color: white;
+        font-size: 0.7em;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: -480px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.2);
+        padding: 15px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+    }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+        z-index: 100;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .nav-bottom{
+        display: none;
+    }
+    #nav .second-logo img{
+        display: unset;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    footer .copyright h3 a {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+        z-index: 100;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .nav-bottom{
+        display: none;
+    }
+
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: -480px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.2);
+        padding: 15px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+    }
+    #nav .second-logo img{
+        display: unset;
+    }
+}
+.active{
+    display: block;
+    margin-top: 50px;
+}

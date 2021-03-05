@@ -411,7 +411,8 @@ Media Quries
     #form .form-title {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        font-size: 1.2em;
+        justify-content: center;
         margin-bottom: 50px;
         margin-left: 0;
     }

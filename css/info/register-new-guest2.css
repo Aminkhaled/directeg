@@ -97,7 +97,10 @@ Select Options
     color: white;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 30px;
+
 }
+
 #form form .checkbox-confirm .checkbox{
     display: flex;
     flex-wrap: wrap;

@@ -591,8 +591,10 @@ Media Quries
         background-color: white;
         width: 70%;
         left: 0;
-        height: 100%;
+        overflow: scroll;
+        height: 700px;
         top: -40px;
+        padding-bottom: 100px;
         z-index: 100;
     }
     #nav-mobile .nav-bottom-mobile ul li{
@@ -685,7 +687,7 @@ footer .copyright h3 a {
         background-color: white;
         width: 70%;
         left: 0;
-        height: 100%;
+        height: auto;
         top: -40px;
         z-index: 100;
     }

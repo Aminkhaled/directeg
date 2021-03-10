@@ -47,6 +47,8 @@ Sections
     background-color: rgba(0,0,0,0.5);
     border: 1px solid black;
     color: white;
+    font-size: 18px;
+    font-weight: 500;
     border-radius: 10px;
     transition: background-color 1s ease-in-out;
 }

@@ -43,7 +43,7 @@ tr th{
     flex-wrap: wrap;
     /* padding: 29px; */
     margin-bottom: 20px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
     padding: 20px;
     border-radius: 20px;
 }

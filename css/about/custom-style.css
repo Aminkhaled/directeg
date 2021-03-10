@@ -48,13 +48,17 @@ Sections
     border: 1px solid black;
     color: white;
     border-radius: 10px;
+    transition: background-color 1s ease-in-out;
 }
-.section-field h2 a{
-    color: white;
-    font-size: 1.5em;
-    font-weight: 400;
+.section-field a:hover h2{
+    background-color: rgba(211,211,211,0.5);
 }
-/*Footer*/
+.section-field a{
+  text-decoration: none;
+}
+/*Footer
+C:\Users\sales04\Downloads\directeg-main\directeg-main\css\about\custom-style.css
+*/
 footer{
     background-color: #555555;
     padding: 50px 0;
@@ -71,6 +75,17 @@ Media Query for About us
         flex: 100%;
         -ms-flex: 100%;
 
+    }
+    .section-field h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid black;
+        color: white;
+        border-radius: 10px;
+        transition: background-color 1s ease-in-out;
     }
 }
 @media only screen and (max-width: 480px){

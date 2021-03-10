@@ -10,6 +10,7 @@ $(document).ready(function () {
 
         }
     })
+    new WOW().init();
 
     $('.icon-span').click(function (e){
         e.defaultPrevented;

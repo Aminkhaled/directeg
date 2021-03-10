@@ -54,7 +54,7 @@ Sections
     font-size: 12px;
     font-weight: 700;
     border-radius: 4px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
 
 }
 #sections .hotel-info{
@@ -76,15 +76,23 @@ Media Query for Info
 ================
 */
 @media only screen and (max-width: 760px){
+    #sections .section-back{
+
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 70px;
+
+    }
     #sections .section-title{
-        text-align: center;
-        margin-left: 0;
+        text-align: left;
+        margin-left: 70px;
     }
     #sections .hotel-info {
         /* margin-right: 200px; */
         margin-top: 20px;
-        margin-right: 0;
-        text-align: center;
+        margin-left: 70px;
+        text-align: left;
     }
 }
 @media only screen and (max-width: 480px){

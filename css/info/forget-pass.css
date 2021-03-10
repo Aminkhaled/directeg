@@ -52,7 +52,7 @@ Sections
     font-size: 12px;
     font-weight: 700;
     border-radius: 4px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
 }
 #sections-hotel .hotel-info{
     width: 100%;
@@ -161,7 +161,7 @@ Select Options
     text-align: center;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
     color: white;
     font-size: 20px;
     border: none;

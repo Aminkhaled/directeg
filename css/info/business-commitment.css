@@ -52,7 +52,7 @@ Sections
     font-size: 12px;
     font-weight: 700;
     border-radius: 4px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
 }
 #sections-hotel .hotel-info{
     margin-right: 200px;
@@ -93,8 +93,8 @@ th, td {
     text-align: left;
     padding: 10px;
 }
-tr:nth-child(even){background-color: rgba(0,0,0,0.7)}
-tr:nth-child(odd){background-color: rgba(0,0,0,0.7)}
+tr:nth-child(even){background-color: rgba(0,0,0,0.5)}
+tr:nth-child(odd){background-color: rgba(0,0,0,0.5)}
 tr:nth-child(1){
     background: #2a2a22;
     color: white;

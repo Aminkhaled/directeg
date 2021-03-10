@@ -33,7 +33,7 @@ body{
 
 }
 #Congratulations .form-title h2 a{
-    font-size: 1.1em;
+    font-size: 1.5em;
     color: white;
 }
 #Congratulations form .form-group{
@@ -47,7 +47,7 @@ body{
     color: white;
     text-align: center;
     border: none;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -55,19 +55,20 @@ body{
 #Congratulations .submit{
     text-align: center;
     margin-top: 20px;
-    padding: 30px 20px;
-    background-color: rgba(0,0,0,0.7);
+    padding: 30px 45px;
+    background-color: rgba(0,0,0,0.5);
     color: white;
     font-size: 20px;
     border: 1px solid black;
     border-radius: 10px;
     transition: background-color 1s;
     text-decoration: none;
-}
-#Congratulations button.submit:hover{
-    background-color: #e4e2e1;
     font-weight: 700;
-    transform: scale(0.8);
+}
+#Congratulations .submit:hover{
+    background-color: rgba(211,211,211,0.5);
+
+
 }
 #Congratulations .congratulation-text{
     width: 100%;
@@ -78,10 +79,8 @@ body{
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 20px;
     color: white;
-}
-#Congratulations .congratulation-text p:last-child{
-    margin-top: 30px;
 }
 
 /*

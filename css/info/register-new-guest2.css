@@ -50,7 +50,7 @@ Select Options
     text-align: center;
     padding: 12px;
     color: white;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.5);
     border: none;
     font-size: 18px;
     text-indent: 35%;
@@ -83,7 +83,7 @@ Select Options
     height: 20px;
     margin-right: 10px;
     color:white;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
 }
 #form form .checkbox-group .checkbox span{
     font-size: 15px;
@@ -111,7 +111,7 @@ Select Options
     height: 20px;
     margin-right: 10px;
     color:white;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
 }
 #form form .checkbox-confirm .checkbox span{
     font-size: 14px;
@@ -201,14 +201,14 @@ Select Options
     }
     nav.nav-bottom ul li:hover{
         padding: 10px;
-        background-color: rgba(0,0,0,0.4);
+        background-color: rgba(0,0,0,0.5);
     }
     .menu-mobile .icon-span{
         position: absolute;
         top: -480px;
         right: 25px;
         /* width: 60px; */
-        background-color: rgba(0,0,0,0.2);
+        background-color: rgba(0,0,0,0.5);
         padding: 15px 15px;
         border-radius: 10px;
 
@@ -244,7 +244,7 @@ Select Options
         top: -480px;
         right: 25px;
         /* width: 60px; */
-        background-color: rgba(0,0,0,0.2);
+        background-color: rgba(0,0,0,0.5);
         padding: 15px 15px;
         border-radius: 10px;
         cursor: pointer;
@@ -265,7 +265,7 @@ Select Options
     }
     nav.nav-bottom ul li:hover{
         padding: 10px;
-        background-color: rgba(0,0,0,0.4);
+        background-color: rgba(0,0,0,0.5);
     }
     .nav-bottom{
         display: none;
@@ -297,7 +297,7 @@ Select Options
     }
     nav.nav-bottom ul li:hover{
         padding: 10px;
-        background-color: rgba(0,0,0,0.4);
+        background-color: rgba(0,0,0,0.5);
     }
     .nav-bottom{
         display: none;
@@ -308,7 +308,7 @@ Select Options
         top: -480px;
         right: 25px;
         /* width: 60px; */
-        background-color: rgba(0,0,0,0.2);
+        background-color: rgba(0,0,0,0.5);
         padding: 15px 15px;
         border-radius: 10px;
         cursor: pointer;

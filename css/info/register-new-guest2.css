@@ -90,7 +90,11 @@ Select Options
     color: white;
 }
 
+.checkbox a {
+    color: white;
+    font-size: inherit;
 
+}
 #form form .checkbox-confirm{
     display: flex;
     justify-content: flex-start;

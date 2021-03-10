@@ -15,5 +15,6 @@ $(document).ready(function () {
     $('.icon-span').click(function (e){
         e.defaultPrevented;
         $('.nav-bottom-mobile').toggleClass('activee');
+        $('.icon-span i').toggleClass('fa-times')
     });
 })

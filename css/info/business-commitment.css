@@ -96,7 +96,7 @@ th, td {
 tr:nth-child(even){background-color: rgba(0,0,0,0.5)}
 tr:nth-child(odd){background-color: rgba(0,0,0,0.5)}
 tr:nth-child(1){
-    background: #2a2a22;
+    background:rgba(0,0,0,0.5);
     color: white;
     border-bottom: 4px solid #fff;
 }

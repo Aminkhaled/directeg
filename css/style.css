@@ -735,12 +735,11 @@ footer .copyright h3 a {
     margin-top: 30px;
     margin-bottom: 50px;
     text-align: center;
+    position: relative;
 }
 .switch-lang p{margin-top: 0px !important;
 }
-.switch-lang:hover .lang-dropdown {
-    display: block;
-}
+
 .switcher-link {
     color: #fff;
 }
@@ -767,13 +766,16 @@ footer .copyright h3 a {
     background: rgba(0,0,0,0.5);
     border-radius: 5px;
     margin-top: 2px;
+    position: absolute;
+    top: -10px;
+    z-index: 200;
 }
 .selecting-lang {
     padding: 3px 5px 3px 5px;
     cursor: pointer;
 }
 .selecting-lang:hover {
-    background: rgba(0,0,0,0.5);
+    color: black;
 }
 
 .switch-lang ul > :first-child {
@@ -794,6 +796,11 @@ footer .copyright h3 a {
 }
 .switch-lang p{
     color: white;
+
+}
+.switch-lang p:hover{
+    color: black;
+
 }
 /*
     #nav-mobile{

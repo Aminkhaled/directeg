@@ -17,4 +17,10 @@ $(document).ready(function () {
         $('.nav-bottom-mobile').toggleClass('activee');
         $('.icon-span i').toggleClass('fa-times')
     });
+    $('.current-lang').click(function (e){
+        e.defaultPrevented;
+        $('.lang-dropdown').toggleClass('activee');
+
+    });
+
 })

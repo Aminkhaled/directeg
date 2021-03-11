@@ -98,8 +98,8 @@ th, td {
     text-align: left;
 
 }
-tr:nth-child(even){background-color: #cecece}
-tr:nth-child(odd){background-color: #dcdcdc}
+tr:nth-child(even){background-color: rgba(206,206,206,0.5)}
+tr:nth-child(odd){background-color:  rgba(220,220,220,0.5)}
 tr:nth-child(1){
     background: rgba(0,0,0,0.5);
     color: white;

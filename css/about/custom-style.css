@@ -1,7 +1,10 @@
 body{
     background:url("../../img/about-us-bg.png") no-repeat fixed ;
     background-size: cover;
-    height: 900px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 50vh;
     z-index: 1;
 }
 

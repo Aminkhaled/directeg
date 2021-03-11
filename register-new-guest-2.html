@@ -7,6 +7,7 @@
     <title>Directeg</title>
     <link rel='icon' href='img/logo.png' type='image/x-icon'/>
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/datepicker.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/info/hotel-room.css">
@@ -308,56 +309,59 @@
         <form action="#" class="form">
             <div class="form-group" >
                 <label for="number"></label>
-                <input type="text" class="form-control" id="number" placeholder="enter your digital key ">
+                <input type="text" class="form-control" id="number" placeholder="enter your digital key " required>
             </div>
             <div class="form-group ">
                 <label for="password"></label>
-                <input type="password" class="form-control"  id="password" placeholder="make your hotel password ">
+                <input type="password" class="form-control"  id="password" placeholder="make your hotel password " required>
             </div>
             <div class="form-group">
                 <label for="passwords"></label>
-                <input type="password" class="form-control"  id="passwords" placeholder="Re-Enter your hotel password">
+                <input type="password" class="form-control"  id="passwords" placeholder="Re-Enter your hotel password" required>
             </div>
             <div class="form-group">
                 <label for="frist-name"></label>
-                <input type="text" class="form-control"  id="frist-name" placeholder="Enter your first name">
+                <input type="text" class="form-control"  id="frist-name" placeholder="Enter your first name" required>
             </div>
             <div class="form-group">
                 <label for="middle"></label>
-                <input type="text" class="form-control"  id="middle" placeholder="Enter your middle name">
+                <input type="text" class="form-control"  id="middle" placeholder="Enter your middle name" required>
             </div>
             <div class="form-group">
                 <label for="last-name"></label>
-                <input type="text" class="form-control"  id="last-name" placeholder="Enter your last name">
+                <input type="text" class="form-control"  id="last-name" placeholder="Enter your last name" required>
             </div>
             <div class="form-group">
                 <label for="email"></label>
-                <input type="email" class="form-control"  id="email" placeholder="Enter your Email">
+                <input type="email" class="form-control"  id="email" placeholder="Enter your Email" required>
             </div>
 
             <div class="form-group">
                 <label for="country"></label>
-                <input type="text" class="form-control"  id="country" placeholder="Enter your Country">
+                <input type="text" class="form-control"  id="country" placeholder="Enter your Country" required>
             </div>
             <div class="form-group checkbox-group">
                 <div class="checkbox">
-                    <input type="checkbox" name="male">
+                    <input type="checkbox" name="male" required>
                     <span>Gender \ male</span>
 
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="female">
+                    <input type="checkbox" name="female" required>
                     <span>Gender \ Female</span>
 
                 </div>
             </div>
-            <div class="form-group      "  >
-                <label for="date"></label>
-                <input type="date" class="form-control"  id="date" placeholder="Enter your last name">
+            <div class="form-group" >
+                <div id="inline" data-date="01/05/2020" >
+                    <label for="datepicker"></label>
+                    <input type="text" id="datepicker" name="datepicker"  placeholder="11/5/2021">
+                </div>
+
             </div>
             <div class="form-group">
                 <div class="options">
-                    <select class="jp_ir has-custom-focus _1360x" id="comp-kjta1cd8collection" required="">
+                    <select class="jp_ir has-custom-focus _1360x" id="comp-kjta1cd8collection" required>
                         <option>Set your dreams Goal</option>
                         <option > 1</option>
                         <option >2</option>
@@ -374,7 +378,7 @@
             </div>
             <div class="form-group">
                 <div class="options">
-                    <select class="jp_ir has-custom-focus _1360x" id="comp-kjta1cd8collectio" required="">
+                    <select class="jp_ir has-custom-focus _1360x" id="comp-kjta1cd8collectio" required>
                         <option >Set your Financial Goal</option>
                         <option > 1</option>
                         <option >2</option>
@@ -391,16 +395,16 @@
             </div>
             <div class="form-group checkbox-confirm">
                 <div class="checkbox">
-                    <input type="checkbox" name="video-confirm">
+                    <input type="checkbox" name="video-confirm" required>
                     <span>I watched Digital Hotel Explanation Video </span>
 
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="faq">
+                    <input type="checkbox" name="faq" required>
                     <span>I Read FAQ Page </span>
                 </div>
                 <div class="checkbox">
-                    <input type="checkbox" name="terms">
+                    <input type="checkbox" name="terms" required>
                     <span>I Agree For Digital Hotels <a href="https://www.pyramid-challenge.com/terms-conditions">Terms&Conditions</a></span>
                 </div>
             </div>
@@ -427,7 +431,15 @@
     </div>
 </footer>
 <script src="js/jquery.js"></script>
+<script src="js/datepicker-full.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/app.js"></script>
+<script>
+    const elem = document.querySelector('input[name="datepicker"]');
+    const datepicker = new Datepicker(elem, {
+        // options here
+        calendarWeeks: false,
+    });
+</script>
 </body>
 </html>

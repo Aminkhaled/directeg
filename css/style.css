@@ -82,7 +82,20 @@ body{
     width: 100%;
     justify-content: space-evenly;
 }
+#nav .nav-top .logo{
+    position: relative;
+}
 
+#nav .nav-top .logo img{
+    position: absolute;
+    left: 114px;
+    top: 40px;
+
+}
+#nav .second-logo{
+    margin-left: 180px;
+    margin-top: 35px;
+}
 #nav .second-logo img{
     display: block;
     text-align: -webkit-center;
@@ -113,7 +126,10 @@ body{
     font-weight: 500;
     font-size: 1.2em;
     text-decoration: none;
-    transition: color 1s ease-in;
+    transition: background-color 1s ease-in;
+}
+#nav .addational-register a:hover{
+    background-color: rgba(0,0,0,0.9);
 }
 #nav .addational-register select{
     margin-top: 20px;
@@ -140,7 +156,7 @@ body{
 }
 #nav .addational-register a:hover{
 
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
 }
 #nav .addational-register .language{
     text-align: center;
@@ -202,7 +218,7 @@ nav.nav-bottom ul li a:hover{
 ===========
 */
 #form{
-    padding: 50px 0;
+    padding: 150px 0;
     text-align: center;
 }
 #form .form-title{
@@ -228,6 +244,9 @@ nav.nav-bottom ul li a:hover{
     text-align: center;
     border: none;
     background-color: rgba(0,0,0,0.5);
+}
+#form form .form-group input:invalid {
+    border-color: red;
 }
 #form form .form-group input:hover{
     background-color: rgba(211,211,211,0.5);
@@ -496,6 +515,7 @@ Media Quries
         width: 50%;
         margin: 0 auto;
         margin-top: 40px;
+        z-index: 555555;
     }
     #nav-mobile .nav-bottom-mobile ul{
         display: flex;
@@ -748,8 +768,9 @@ footer .copyright h3 a {
 }
 .current-lang {
     background: rgba(0,0,0,0.5);
-    padding: 8px 16px;
-    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+
 }
 .lang-flag {
     width: 20px;
@@ -767,23 +788,19 @@ footer .copyright h3 a {
     border-radius: 5px;
     margin-top: 2px;
     position: absolute;
-    top: -10px;
+    top: -16px;
     z-index: 200;
 }
 .selecting-lang {
     padding: 3px 5px 3px 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .selecting-lang:hover {
     color: black;
 }
 
-.switch-lang ul > :first-child {
-    border-radius: 5px 5px 0px 0px;
-}
-.switch-lang ul > :last-child {
-    border-radius: 0px 0px 5px 5px;
-}
+
 .switch-lang li {
     list-style-type: none;
 }
@@ -830,4 +847,7 @@ footer .copyright h3 a {
 .activee{
     display: block;
     margin-top: 50px;
+}
+input:required{
+    background-color: red;
 }

@@ -73,7 +73,7 @@ body{
 #nav{
     padding: 40px 0;
     background-color: rgba(255,255,255,0.5);
-    transition: background-color 1s;
+    transition: background-color 0.3s;
 
 }
 #nav .nav-top{
@@ -126,7 +126,7 @@ body{
     font-weight: 500;
     font-size: 1.2em;
     text-decoration: none;
-    transition: background-color 1s ease-in;
+    transition: background-color 0.3s ease-in;
 }
 #nav .addational-register a:hover{
     background-color: rgba(0,0,0,0.9);
@@ -140,7 +140,7 @@ body{
     font-weight: 500;
     font-size: 1.2em;
     text-decoration: none;
-    transition: color 1s ease-in;
+    transition: color 0.3s ease-in;
 }
 #nav .addational-register select option{
     margin-top: 20px;
@@ -152,7 +152,7 @@ body{
     font-weight: 500;
     font-size: 1.2em;
     text-decoration: none;
-    transition: background-color 1s ease-in;
+    transition: background-color 0.3s ease-in;
 }
 #nav .addational-register a:hover{
 
@@ -348,6 +348,13 @@ nav.nav-bottom ul li a:hover{
     color: white;
 
 }
+#form .forget-pass{
+    display: block;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
 /*
 ======================
 Footer
@@ -412,7 +419,7 @@ Media Quries
     #nav-mobile{
         padding: 40px 0;
         background-color: rgba(255,255,255,0.5);
-        transition: background-color 1s;
+        transition: background-color 0.3s;
 
     }
     #nav-mobile .nav-top{
@@ -458,7 +465,7 @@ Media Quries
         font-weight: 500;
         font-size: 1.2em;
         text-decoration: none;
-        transition: color 1s ease-in;
+        transition: color 0.3s ease-in;
     }
     #nav-mobile .addational-register select{
         margin-top: 20px;
@@ -469,7 +476,7 @@ Media Quries
         font-weight: 500;
         font-size: 1.2em;
         text-decoration: none;
-        transition: color 1s ease-in;
+        transition: color 0.3s ease-in;
     }
     #nav-mobile .addational-register select option{
         margin-top: 20px;
@@ -481,7 +488,7 @@ Media Quries
         font-weight: 500;
         font-size: 1.2em;
         text-decoration: none;
-        transition: background-color 1s ease-in;
+        transition: background-color 0.3s ease-in;
     }
     #nav-mobile .addational-register a:hover{
 
@@ -594,6 +601,13 @@ Media Quries
     #form form .form-group input{
         padding: 1em 10em;
     }
+    #form .forget-pass {
+        display: block;
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+    }
     /*
     Footer Query
     */
@@ -619,7 +633,7 @@ Media Quries
     }
     #nav-mobile .nav-bottom-mobile ul li{
         margin-bottom: 30px;
-        transition: background-color 1s;
+        transition: background-color 0.3s;
     }
     #nav-mobile .nav-bottom-mobile ul li:hover{
         padding: 10px;
@@ -713,7 +727,7 @@ footer .copyright h3 a {
     }
     #nav-mobile .nav-bottom-mobile ul li{
         margin-bottom: 30px;
-        transition: background-color 1s;
+        transition: background-color 0.3s;
     }
     #nav-mobile .nav-bottom-mobile ul li:hover{
         padding: 10px;

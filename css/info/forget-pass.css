@@ -39,7 +39,7 @@ Sections
 }
 #sections-hotel .section-back{
 
-    width: 60%;
+    width: 72%;
     margin-bottom: 30px;
     text-align: left;
 
@@ -205,7 +205,7 @@ Media Query for Info
         text-indent: 0;
     }
     #sections-hotel .section-back {
-        width: 60%;
+        width: 72%;
         margin-bottom: 30px;
         text-align: center;
     }

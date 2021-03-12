@@ -29,7 +29,7 @@ tr th{
 }
 #sections-hotel .hotel-info {
     width: 100%;
-    margin-left: 267px;
+    margin-left: 190px;
     margin-top: 20px;
 }
 .mount-tip h2{
@@ -64,6 +64,10 @@ tr th{
 }
 .img-gold img{
     width: 130px;
+}
+
+#form{
+    padding: 15px 0 !important;
 }
 /*
 ================

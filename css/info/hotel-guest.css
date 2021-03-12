@@ -37,7 +37,7 @@ Sections
 }
 #sections-hotel .section-back{
 
-    width: 60%;
+    width: 72%;
     margin-bottom: 30px;
     text-align: left;
 
@@ -93,23 +93,23 @@ tr:nth-child(odd){background-color:  rgba(220,220,220,0.5)}
 tr:nth-child(1){
     background: rgba(0,0,0,0.5);
     color: white;
-    border-bottom: 4px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 tr th{
-    border-right: 4px solid #fff;
+    border-right: 1px solid #fff;
     text-align: center;
 }
 tr th:last-child{
     border-right: none;
 }
 tr td{
-    border-right: 3px solid #fff;
+    border-right: 1px solid #fff;
 }
 tr td:last-child{
     border-right: none;
 }
-tr:last-child{
-    border-bottom: 3px solid #fff;
+tr{
+    border-bottom: 1px solid #fff;
 }
 /*
 ================
@@ -140,7 +140,7 @@ Media Query for Info
 
     }
     #sections-hotel .section-back {
-        width: 60%;
+        width: 72%;
         margin-bottom: 30px;
         text-align: center;
     }

@@ -107,7 +107,7 @@ tr:nth-child(1){
     border-bottom: 4px solid #fff;
 }
 tr th{
-    border-right: 4px solid #fff;
+    border-right: 1px solid #fff;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -117,7 +117,7 @@ tr th:last-child{
     border-right: none;
 }
 tr td{
-    border-right: 3px solid #fff;
+    border-right: 1px solid #fff;
     border-bottom: 2px solid #ffffff;
     text-align: center;
     color: white;

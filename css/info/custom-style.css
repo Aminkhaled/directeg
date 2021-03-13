@@ -55,10 +55,13 @@ Sections
     color: white;
     font-size: 12px;
     font-weight: 700;
-
     background-color: rgba(0,0,0,0.5);
-
+    transition: background-color 0.3s;
 }
+#sections .section-back a:hover{
+    background-color: rgba(211,211,211,0.5);
+}
+
 #sections .hotel-info{
     margin-right: 200px;
     margin-top: 20px;

@@ -170,3 +170,6 @@ Media Query for Info
         text-align: center;
     }
 }
+#sections-hotel .section-title{
+    margin-left: 0 !important;
+}

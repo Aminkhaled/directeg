@@ -19,14 +19,15 @@ Sections
     text-align: left;
 }
 #sections .section-title h2 a{
-    font-size: 2.2em;
+    font-size: 1.8em;
     color: white;
 }
 #sections .section-title{
 
     /* display: block; */
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-left: 285px;
 
 }
 .section-row {
@@ -50,7 +51,7 @@ Sections
     background-color: rgba(0,0,0,0.5);
     border: 1px solid black;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     border-radius: 10px;
     transition: background-color 1s ease-in-out;
@@ -76,6 +77,12 @@ Media Query for About us
 ================
 */
 @media only screen and (max-width: 760px){
+    #sections .section-title {
+        /* display: block; */
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
     .section-field{
         flex: 100%;
         -ms-flex: 100%;

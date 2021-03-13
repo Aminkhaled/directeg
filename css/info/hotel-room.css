@@ -53,8 +53,11 @@ Sections
     color: white;
     font-size: 12px;
     font-weight: 700;
-
     background-color: rgba(0,0,0,0.5);
+    transition: background-color 0.3s;
+}
+#sections-hotel .section-back a:hover{
+    background-color: rgba(211,211,211,0.5);
 }
 #sections-hotel .hotel-info{
     width: 100%;
@@ -135,7 +138,7 @@ Select Options
     text-align: center;
     padding: 12px;
     color: white;
-    background: #b0b1a6;
+    background: rgba(211,211,211,0.5);
     border: none;
     font-size: 18px;
     text-indent: 35%;

@@ -25,11 +25,11 @@ body{
 }
 
 tr th{
-    font-size: 20px;
+    font-size: 16px;
 }
 #sections-hotel .hotel-info {
     width: 100%;
-    margin-left: 190px;
+    margin-left: 290px;
     margin-top: 20px;
 }
 .mount-tip h2{

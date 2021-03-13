@@ -38,10 +38,13 @@ body{
 /*overwrite for select*/
 
 /*
-Select Options
+Select Options and form
 */
+.form-group{
+    text-align: -webkit-center;
+}
 .options{
-    width: 100%;
+    width: 74%;
     text-align: center;
 }
 .options select{
@@ -69,7 +72,7 @@ Select Options
 
 #form form .checkbox-group{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
     flex-wrap: wrap;
 }
@@ -105,9 +108,10 @@ Select Options
 }
 
 #form form .checkbox-confirm .checkbox{
-    display: flex;
-    flex-wrap: wrap;
+
     margin-bottom: 30px;
+    text-align: left;
+    margin-left: 360px;
 }
 #form form .checkbox-confirm .checkbox input{
     width: 20px;
@@ -175,7 +179,7 @@ Select Options
         margin-left: 0;
     }
     #form form .form-group input{
-        padding: 1em 10em;
+        padding: 1em 1em;
     }
     /*
     Footer Query

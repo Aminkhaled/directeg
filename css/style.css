@@ -221,6 +221,9 @@ nav.nav-bottom ul li a:hover{
     padding: 150px 0;
     text-align: center;
 }
+.form{
+    width: 100%;
+}
 #form .form-title{
     display: flex;
     flex-wrap: wrap;
@@ -238,10 +241,11 @@ nav.nav-bottom ul li a:hover{
 
 
 #form form .form-group input{
-    padding: 1em 20em;
+    padding: 1em 1em;
     border-radius: 5px;
     color: white;
     text-align: center;
+    width: 55%;
     border: none;
     background-color: rgba(0,0,0,0.5);
 }
@@ -599,7 +603,7 @@ Media Quries
         color: white;
     }
     #form form .form-group input{
-        padding: 1em 10em;
+        padding: 1em 1em;
     }
     #form .forget-pass {
         display: block;

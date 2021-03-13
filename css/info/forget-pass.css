@@ -176,9 +176,7 @@ Select Options
     transition: background-color 1s;
 }
 #form button.change:hover{
-    background-color: #b0b1a6;
-    font-weight: 700;
-    transform: scale(0.8);
+    background-color: rgba(211,211,211,0.5);
 }
 
 #form {

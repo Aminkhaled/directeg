@@ -103,17 +103,17 @@ tr:nth-child(odd){background-color: rgba(220,220,220,0.5)}
 tr:nth-child(1){
     background:   rgba(0,0,0,0.5);
     color: white;
-    border-bottom: 4px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 tr th{
-    border-right: 4px solid #fff;
+    border-right: 1px solid #fff;
     text-align: center;
 }
 tr th:last-child{
     border-right: none;
 }
 tr td{
-    border-right: 3px solid #fff;
+    border-right: 1px solid #fff;
     font-size: 15px;
     font-weight: bold;
 }
@@ -121,7 +121,7 @@ tr td:last-child{
     border-right: none;
 }
 tr:last-child{
-    border-bottom: 3px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 
@@ -167,7 +167,7 @@ Select Options
 #form button.change{
     text-align: center;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 25px 80px;
     background-color: rgba(0,0,0,0.5);
     color: white;
     font-size: 20px;

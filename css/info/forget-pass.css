@@ -180,6 +180,20 @@ Select Options
     font-weight: 700;
     transform: scale(0.8);
 }
+
+#form {
+    padding: 25px 0 !important;
+}
+#sections-hotel .hotel-info {
+    width: 100%;
+    margin-left: 294px;
+    margin-top: 20px;
+}
+#sections-hotel .section-back {
+    width: 57%;
+    margin-bottom: 30px;
+    text-align: left;
+}
 /*
 ================
 Media Query for Info

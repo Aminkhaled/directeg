@@ -254,25 +254,25 @@ nav.nav-bottom ul li a:hover{
 }
 #form form .form-group [type="email"]:-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 
 }
 #form form .form-group [type="email"]::-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 
 }
 #form form .form-group [type="email"]::-webkit-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 
 }
 #form form .form-group [type="email"]:-ms-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 }
 
@@ -281,48 +281,48 @@ nav.nav-bottom ul li a:hover{
 
 #form form .form-group [type="password"]:-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.85em;
     color: white;
 
 }
 #form form .form-group [type="password"]::-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.85em;
     color: white;
 
 }
 #form form .form-group [type="password"]::-webkit-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.85em;
     color: white;
 
 }
 #form form .form-group [type="password"]:-ms-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.85em;
     color: white;
 }
 #form form .form-group [type="text"]:-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 
 }
 #form form .form-group [type="text"]::-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 
 }
 #form form .form-group [type="text"]::-webkit-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 
 }
 #form form .form-group [type="text"]:-ms-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95em;
     color: white;
 
 }

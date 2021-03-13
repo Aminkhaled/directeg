@@ -58,42 +58,42 @@ body{
 }
 #form form .form-group [type="number"]:-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 
 }
 #form form .form-group [type="number"]::-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 
 }
 #form form .form-group [type="number"]::-webkit-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 
 }
 #form form .form-group [type="number"]:-ms-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 }
 #form form .form-group [type="text"]:-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 
 }
 #form form .form-group [type="text"]::-moz-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 
 }
 #form form .form-group [type="text"]::-webkit-input-placeholder{
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     color: white;
 
 }

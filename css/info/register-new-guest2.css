@@ -51,7 +51,7 @@ Select Options
     color: white;
     background: rgba(0,0,0,0.5);
     border: none;
-    font-size: 18px;
+    font-size: 15px;
     text-indent: 35%;
 
 }
@@ -325,3 +325,4 @@ Select Options
     display: block;
     margin-top: 50px;
 }
+

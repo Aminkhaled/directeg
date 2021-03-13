@@ -99,11 +99,27 @@ Media Query for About us
         border-radius: 10px;
         transition: background-color 1s ease-in-out;
     }
+    .section-row {
+        display: flex;
+        margin-top: 30px;
+        justify-items: center;
+        width: 90%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width: 480px){
     .section-field{
         flex: 100%;
         -ms-flex: 100%;
 
+    }
+    .section-row {
+        display: flex;
+        margin-top: 30px;
+        justify-items: center;
+        width: 90%;
+        text-align: center;
+        flex-wrap: wrap;
     }
 }

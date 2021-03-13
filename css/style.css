@@ -677,6 +677,28 @@ Media Quries
           font-size: 16px;
           font-weight: 700;
       }
+    #form form .form-group input {
+        padding: 1em 1em;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        width: 80%;
+        border: none;
+        background-color: rgba(0,0,0,0.5);
+    }
+    #form .submit {
+        text-align: center;
+        margin-top: 2px;
+        padding: 13px 80px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.3s;
+        text-decoration: none;
+        font-weight: 700;
+    }
     }
 @media only screen and (max-width: 480px){
     #nav{
@@ -686,7 +708,7 @@ Media Quries
         padding: 1em 5em;
     }
     #form .form-title h2 a {
-        font-size: 1.2em;
+        font-size: 1.8em;
         color: white;
     }
 
@@ -702,12 +724,33 @@ Media Quries
         right: 25px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.5);
-        padding: 35px 0px;
+        padding: 40px 20px;
         border-radius: 10px;
         cursor: pointer;
         display: block;
     }
-
+    #form form .form-group input {
+        padding: 1em 1em;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        width: 90%;
+        border: none;
+        background-color: rgba(0,0,0,0.5);
+    }
+    #form .submit {
+        text-align: center;
+        margin-top: 2px;
+        padding: 13px 80px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.3s;
+        text-decoration: none;
+        font-weight: 700;
+    }
 
 }
 @media only screen and (max-width: 320px){
@@ -747,7 +790,7 @@ footer .copyright h3 a {
         right: 25px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.5);
-        padding: 15px 15px;
+        padding: 30px 15px;
         border-radius: 10px;
         cursor: pointer;
         display: block;
@@ -755,6 +798,15 @@ footer .copyright h3 a {
 
      #nav-mobile .second-logo img{
         display: unset;
+    }
+    #form form .form-group input {
+        padding: 1em 1em;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        width: 80%;
+        border: none;
+        background-color: rgba(0,0,0,0.5);
     }
 }
 .active{

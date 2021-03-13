@@ -228,6 +228,15 @@ Select Options and form
     .checkbox-confirm{
         margin-bottom: 30px;
     }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 100px;
+    }
+    .options {
+        width: 90%;
+        /* text-align: center; */
+    }
 
 }
 
@@ -239,6 +248,11 @@ Select Options and form
         font-size: 1.2em;
         color: white;
     }
+    .options {
+        width: 90%;
+        /* text-align: center; */
+    }
+
 
     footer .copyright h3 a {
         color: white;
@@ -279,6 +293,11 @@ Select Options and form
     }
     #nav .second-logo img{
         display: unset;
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 73px;
     }
 
 }

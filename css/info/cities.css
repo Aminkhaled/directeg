@@ -128,7 +128,7 @@ tr td{
     text-align: center;
     color: rgba(0,0,0,0.9);
     font-size: 22px;
-
+    width: 50%;
 }
 tr td:last-child{
     border-right: none;

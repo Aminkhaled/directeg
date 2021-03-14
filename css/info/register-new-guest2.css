@@ -125,6 +125,34 @@ Select Options and form
     font-weight: 700;
     color: whitesmoke;
 }
+@media  screen and (min-width:770px) and (max-width: 850px){
+
+    #form .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    #form form .form-group input {
+        padding: 1em 1em;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        width: 85%;
+        border: none;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .options {
+        width: 92%;
+        text-align: center;
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 170px;
+    }
+}
 @media only screen and (max-width: 760px){
     #wix .intro {
         display: flex;
@@ -231,7 +259,7 @@ Select Options and form
     #form form .checkbox-confirm .checkbox {
         margin-bottom: 30px;
         text-align: left;
-        margin-left: 100px;
+        margin-left: 160px;
     }
     .options {
         width: 95%;
@@ -310,6 +338,11 @@ Select Options and form
         text-indent: 35%;
 
     }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 70px !important;
+    }
 
 }
 @media only screen and (max-width: 320px){
@@ -365,6 +398,11 @@ Select Options and form
         text-indent: 35%;
 
     }
+         #form form .checkbox-confirm .checkbox {
+             margin-bottom: 30px;
+             text-align: left;
+             margin-left: 73px;
+         }
 }
 .active{
     display: block;

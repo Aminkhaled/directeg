@@ -76,6 +76,13 @@ footer{
 Media Query for About us
 ================
 */
+
+@media  screen and (min-width:770px) and (max-width: 850px){
+
+    .section-field h2{
+        height: 90%;
+    }
+}
 @media only screen and (max-width: 760px){
     #sections .section-title {
         /* display: block; */
@@ -96,6 +103,7 @@ Media Query for About us
         background-color: rgba(0,0,0,0.5);
         border: 1px solid black;
         color: white;
+        height: 90%;
         border-radius: 10px;
         transition: background-color 1s ease-in-out;
     }

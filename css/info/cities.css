@@ -158,6 +158,11 @@ Media Query for Info
         margin-right: 0;
         text-align: center;
     }
+    #sections-hotel .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 480px){
     #sections-hotel{
@@ -174,7 +179,7 @@ Media Query for Info
 
     }
     #sections-hotel .section-back {
-        width: 72%;
+        width: 100%;
         margin-bottom: 30px;
         text-align: center;
     }

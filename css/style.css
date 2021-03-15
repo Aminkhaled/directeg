@@ -23,6 +23,7 @@ hr{
     color: white;
     background: white;
     border: 2px solid white;
+    margin-right: 85px;
 
 }
 /*
@@ -597,7 +598,8 @@ Media Quries
     }
     #nav-mobile .nav-bottom-mobile ul {
 
-        text-align: center;
+        text-align: left;
+        margin-left: 40px;
 
     }
     #nav-mobile .nav-bottom-mobile ul li {
@@ -668,7 +670,7 @@ Media Quries
         right: 34px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.5);
-        padding: 44px 22px;
+        padding: 45px 30px;
         border-radius: 10px;
 
         cursor: pointer;
@@ -743,7 +745,7 @@ Media Quries
         right: 25px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.5);
-        padding: 40px 20px;
+        padding: 45px 25px;
         border-radius: 10px;
         cursor: pointer;
         display: block;
@@ -823,7 +825,7 @@ footer .copyright h3 a {
         right: 25px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.5);
-        padding: 30px 15px;
+        padding: 44px 22px;
         border-radius: 10px;
         cursor: pointer;
         display: block;

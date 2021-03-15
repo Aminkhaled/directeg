@@ -115,18 +115,44 @@ Media Query for Info
     }
 }
 @media only screen and (max-width: 480px){
-    #sections .section-title{
-        text-align: center;
-        margin-left: 0;
+    #sections .section-title {
+        text-align: left;
+        margin-left: none;
     }
     #sections .hotel-info {
         margin-left: 0;
         margin-right: 0;
 
     }
+
     #sections .section-back {
-        width: 60%;
+        width: 100%;
         margin-bottom: 30px;
-        text-align: center;
+
+    }
+    #sections .hotel-info {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 320px){
+    #sections .section-title {
+        text-align: left;
+        margin-left: none;
+    }
+    #sections .hotel-info {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #sections .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    #sections .hotel-info {
+        margin-left: 0;
+        margin-right: 0;
     }
 }

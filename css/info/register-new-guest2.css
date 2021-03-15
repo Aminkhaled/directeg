@@ -338,15 +338,11 @@ Select Options and form
         text-indent: 35%;
 
     }
+
     #form form .checkbox-confirm .checkbox {
         margin-bottom: 30px;
         text-align: left;
-        margin-left: 70px !important;
-    }
-    #form form .checkbox-confirm .checkbox {
-        margin-bottom: 30px;
-        text-align: left;
-        margin-left: 70px;
+        margin-left: 60px;
     }
 
 }
@@ -403,11 +399,11 @@ Select Options and form
         text-indent: 35%;
 
     }
-         #form form .checkbox-confirm .checkbox {
-             margin-bottom: 30px;
-             text-align: left;
-             margin-left: 73px;
-         }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 73px;
+    }
     #form form .checkbox-confirm .checkbox {
         margin-bottom: 30px;
         text-align: left;

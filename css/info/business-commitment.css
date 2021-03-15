@@ -142,10 +142,10 @@ Media Query for Info
     #sections-hotel .section-back {
         width: 100%;
         margin-bottom: 30px;
-        text-align: center;
+        text-align: left;
     }
     #sections-hotel{
-        margin-left: 0;
+        margin-left: 40px;
     }
     #sections-hotel .section-title {
         width: 100%;
@@ -159,6 +159,7 @@ Media Query for Info
         font-weight: bold;
         line-height: 30px;
     }
+
 }
 @media only screen and (max-width: 760px){
 

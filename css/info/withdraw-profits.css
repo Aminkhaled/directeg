@@ -74,6 +74,13 @@ tr th{
 Media Query for Info
 ================
 */
+@media  screen and (min-width:770px) and (max-width: 850px){
+    #sections-hotel .hotel-info {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
 @media only screen and (max-width: 760px){
     #sections-hotel .section-title{
         text-align: center;

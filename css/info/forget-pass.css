@@ -239,18 +239,14 @@ Media Query for Info
         margin-bottom: 30px;
         text-align: center;
     }
+
 }
 @media only screen and (max-width: 480px){
     #sections-hotel .section-title{
         text-align: center;
         margin-left: 0;
     }
-    #sections-hotel .hotel-info {
-        /* margin-right: 200px; */
-        margin-top: 20px;
-        text-align: center;
 
-    }
     #sections-hotel .section-back {
         width: 60%;
         margin-bottom: 30px;

@@ -17,6 +17,14 @@ body{
     font-family: Arial,Helvetica,sans-serif;
 
 }
+hr{
+
+    width: 70%;
+    color: white;
+    background: white;
+    border: 2px solid white;
+
+}
 /*
 ====================
  Public css
@@ -399,6 +407,15 @@ Mobile Menu
 Media Quries
 ===================
 */
+@media  screen and (min-width:770px) and (max-width: 850px){
+    #form .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
 @media only screen and (max-width: 760px){
     #nav{
         display: none;
@@ -523,10 +540,11 @@ Media Quries
     }
 
     #nav-mobile .nav-bottom-mobile{
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
         margin-top: 40px;
         z-index: 555555;
+        background: rgba(0,0,0,0.7);
     }
     #nav-mobile .nav-bottom-mobile ul{
         display: flex;
@@ -544,13 +562,13 @@ Media Quries
     #nav-mobile .nav-bottom-mobile ul li a{
         text-decoration: none;
         font-size: 1.1em;
-        color: black;
+        color: white;
         font-weight: 600;
         padding-top: 15px;
         border-top: none;
     }
     #nav-mobile .nav-bottom-mobile ul li a:hover{
-        border-top: 2px solid gray;
+        border-top: 2px solid white;
     }
     /* Nav Query*/
     #nav-mobile .nav-top .logo{
@@ -641,7 +659,8 @@ Media Quries
     }
     #nav-mobile .nav-bottom-mobile ul li:hover{
         padding: 10px;
-        background-color: rgba(0,0,0,0.5);
+        color: white;
+        background-color: rgba(0,0,0,0.9);
     }
     #nav-mobile .nav-top .icon-span{
         position: absolute;
@@ -649,7 +668,7 @@ Media Quries
         right: 34px;
         /* width: 60px; */
         background-color: rgba(0,0,0,0.5);
-        padding: 30px 18px;
+        padding: 44px 22px;
         border-radius: 10px;
 
         cursor: pointer;
@@ -688,7 +707,7 @@ Media Quries
     }
     #form .submit {
         text-align: center;
-        margin-top: 2px;
+        margin-top: 20px;
         padding: 13px 80px;
         background-color: rgba(0,0,0,0.5);
         color: white;
@@ -826,6 +845,7 @@ footer .copyright h3 a {
 .active{
     display: block;
     margin-top: 50px;
+
 }
 /*labguage swticher*/
 .switch-lang img{

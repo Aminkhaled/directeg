@@ -259,7 +259,7 @@ Select Options and form
     #form form .checkbox-confirm .checkbox {
         margin-bottom: 30px;
         text-align: left;
-        margin-left: 160px;
+        margin-left: 130px;
     }
     .options {
         width: 95%;
@@ -267,7 +267,6 @@ Select Options and form
     }
 
 }
-
 @media only screen and (max-width: 480px){
     #form form .form-group input{
         padding: 1em 5em;
@@ -343,6 +342,11 @@ Select Options and form
         text-align: left;
         margin-left: 70px !important;
     }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 70px;
+    }
 
 }
 @media only screen and (max-width: 320px){
@@ -403,6 +407,11 @@ Select Options and form
              text-align: left;
              margin-left: 73px;
          }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 70px;
+    }
 }
 .active{
     display: block;

@@ -77,7 +77,7 @@ Media Query for Info
 @media  screen and (min-width:770px) and (max-width: 850px){
     #sections-hotel .hotel-info {
         width: 100%;
-        margin-left: -240px;
+        margin-left: 210px;
         margin-top: 20px;
     }
     #sections-hotel .section-back {

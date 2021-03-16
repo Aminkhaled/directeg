@@ -159,7 +159,7 @@ Select Options
 table settings
 */
 .hotel-guest-table{
-    width: 40%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -256,5 +256,19 @@ Media Query for Info
         margin: 0 auto;
         width: 90%;
     }
+    tr th{
+        font-size: 10px;
+    }
+    tr td{
+        font-size: 10px;
+    }
 
+}
+@media only screen and (max-width: 320px){
+    tr th{
+        font-size: 10px;
+    }
+    tr td{
+        font-size: 10px;
+    }
 }

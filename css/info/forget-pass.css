@@ -201,7 +201,7 @@ Media Query for Info
     #sections-hotel .hotel-info {
         text-align: left;
         width: 100%;
-        margin-left: 185px;
+        margin-left: 165px;
         margin-top: 20px;
     }
     #sections-hotel {
@@ -210,7 +210,7 @@ Media Query for Info
     }
     #sections-hotel .section-back {
         /* width: 100%; */
-        width: 55%;
+        width: 58%;
         margin-bottom: 30px;
         text-align: left;
     }

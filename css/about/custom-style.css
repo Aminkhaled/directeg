@@ -82,6 +82,12 @@ Media Query for About us
     .section-field h2{
         height: 90%;
     }
+    #sections .section-title {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-left: 170px;
+    }
 }
 @media only screen and (max-width: 760px){
     #sections .section-title {

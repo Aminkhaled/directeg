@@ -162,8 +162,18 @@ Media Query for Info
 
     #sections-hotel .hotel-info {
         width: 100%;
-        margin-left: 115px;
+        margin-left: 30px;
         margin-top: 20px;
+    }
+    .hotel-guest {
+        padding: 30px 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #sections-hotel .section-back {
+        width: 93%;
+        margin-bottom: 30px;
+        text-align: left;
     }
 }
 @media only screen and (max-width: 760px){

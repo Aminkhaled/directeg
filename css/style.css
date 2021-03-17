@@ -110,6 +110,9 @@ hr{
     text-align: -webkit-center;
     margin: 0 auto;
 }
+#nav .second-logo img.last-line{
+    margin-top: -3px;
+}
 #nav .text-second-logo h2 span{
     display: block;
     font-size: 1.2em;
@@ -415,6 +418,9 @@ Media Quries
         justify-content: center;
         margin-left: 0;
     }
+    #nav .second-logo img.last-line{
+        margin-top: -3px;
+    }
 }
 
 @media only screen and (max-width: 760px){
@@ -478,16 +484,23 @@ Media Quries
     #nav-mobile .addational-register .btn{
         margin-bottom: 40px;
     }
+    #nav-mobile .addational-register{
+        margin-top: 25px;
+    }
     #nav-mobile .addational-register a{
         margin-top: 20px;
-        padding: 10px 30px;
+        padding: 13px 110px;
         border-radius: 5px;
         background-color: rgba(0,0,0,0.5);
         color: white;
         font-weight: 500;
         font-size: 1.2em;
         text-decoration: none;
-        transition: color 0.3s ease-in;
+        transition: background-color,color 0.3s ease-in;
+    }
+    #nav-mobile .addational-register a:hover{
+        color: white;
+        background-color: rgba(0,0,0,0.9);
     }
     #nav-mobile .addational-register select{
         margin-top: 20px;
@@ -512,10 +525,7 @@ Media Quries
         text-decoration: none;
         transition: background-color 0.3s ease-in;
     }
-    #nav-mobile .addational-register a:hover{
 
-        background-color: rgba(0,0,0,0.5);
-    }
     #nav-mobile .addational-register .language{
         text-align: center;
     }
@@ -536,7 +546,7 @@ Media Quries
         text-align: center;
     }
     #nav-mobile .addational-register .sign a{
-        padding: 10px 80px;
+        padding: 15px 160px;
 
     }
 
@@ -608,6 +618,7 @@ Media Quries
         width: 100%;
         margin-top: 25px;
     }
+
 
     /* Form query*/
     #form .form-title {
@@ -692,6 +703,9 @@ Media Quries
         display: block;
         width: 90%;
         margin: 0 auto;
+    }
+    .mobile-logo img.last-line{
+        margin-top: -3px;
     }
       .quote-text p{
           font-style: italic;

@@ -916,6 +916,17 @@ footer .copyright h3 a {
     border-radius: 10px;
     cursor: pointer;
 }
+  .select-lang span a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+    margin-top: 0;
+    padding: 1px 30px;
+
+    font-weight: 500;
+    transition: background-color 0.3s ease-in;
+}
 .selecting-lang:hover {
     color: black;
 }
@@ -970,4 +981,18 @@ footer .copyright h3 a {
 }
 input:required{
     background-color: red;
+}
+.select-lang span a{
+
+}
+#nav .addational-register a.lang-text{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+    margin-top: 0;
+    padding:0;
+     background-color: transparent;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in;
 }

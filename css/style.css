@@ -36,6 +36,9 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
 }
+.button{
+    margin: 40px 0;
+}
 /*
 =================
  Section Wix

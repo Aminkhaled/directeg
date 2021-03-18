@@ -6,7 +6,14 @@
     justify-content: flex-start;
     direction: rtl;
 }
-
+.lang-text {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-top: 2px;
+    text-decoration: none;
+    color: wheat;
+}
 /* modify for menu*/
 #nav .addational-register a {
     margin-top: 20px;
@@ -84,6 +91,28 @@
     margin-right: 285px;
     margin-top: 20px;
 }
+
+
+#business-rtl .section-title {
+    text-align: right;
+    margin-right: 16%;
+}
+#business-rtl .section-title h2 a {
+    font-size: 2.2em;
+    /* color: white; */
+}
+#form form .checkbox-group .checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+#form form .checkbox-confirm .checkbox {
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 394px;
+}
 @media  screen and (min-width:900px) and (max-width: 1500px){
     #form .form-title {
         display: flex;
@@ -131,6 +160,18 @@
         margin-right: 104px;
         margin-top: 20px;
     }
+    #change-pass .hotel-info {
+        width: 100%;
+        text-align: revert;
+        margin-right: 176px;
+        margin-top: 20px;
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 200px;
+    }
+
 }
 @media only screen and (max-width: 760px) {
     #nav-mobile .addational-register a {
@@ -152,6 +193,18 @@
         width: 100%;
         text-align: right;
         margin-right: 6%;
+    }
+    #business-rtl .hotel-info {
+        width: 100%;
+        margin-right: 85px;
+        margin-top: 20px;
+        text-align: right;
+
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 195px;
     }
 }
 @media only screen and (max-width: 480px){
@@ -210,6 +263,20 @@
         text-align: center;
         margin-right: 0;
     }
+
+        #business-rtl .hotel-info {
+            width: 100%;
+            margin-right: 26px;
+            margin-top: 20px;
+            text-align: right;
+        }
+
+
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 85px;
+    }
 }
 @media only screen and (max-width: 360px){
     .quote-text p {
@@ -231,7 +298,20 @@
     #sections-hotel .section-back {
         width: 100%;
         margin-bottom: 30px;
-        text-align: center;
-        margin-right: 0;
+        text-align: revert;
+        margin-right: 50px;
     }
+
+        #business-rtl .hotel-info {
+            width: 100%;
+            margin-right: 26px;
+            margin-top: 20px;
+            text-align: right;
+        }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 60px;
+    }
+
 }

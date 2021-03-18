@@ -21,7 +21,51 @@
     transition: background-color 0.3s;
     margin-right: 100px;
 }
+#nav .text-second-logo h2 span {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-style: oblique;
+}
 
+@media  screen and (min-width:900px) and (max-width: 1500px){
+    #form .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-right: 305px;
+    }
+}
+@media  screen and (min-width:770px) and (max-width: 850px){
+#nav .second-logo {
+    margin-left: 150px;
+    margin-top: 35px;
+}
+    #nav .addational-register a {
+        margin-top: 20px;
+        padding: 11px 60px;
+        border-radius: 5px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        font-weight: 500;
+        font-size: 1.2em;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in;
+    }
+    #nav .addational-register .sign a {
+        padding: 10px 55px;
+    }
+    #nav .nav-top .logo img {
+        position: absolute;
+        left: 60px;
+        top: 40px;
+    }
+}
 @media only screen and (max-width: 760px) {
     #nav-mobile .addational-register a {
         margin-top: 20px;

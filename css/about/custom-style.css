@@ -88,6 +88,7 @@ Media Query for About us
         text-align: left;
         margin-left: 170px;
     }
+
 }
 @media only screen and (max-width: 760px){
     #sections .section-title {

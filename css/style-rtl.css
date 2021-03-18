@@ -79,3 +79,24 @@
         transition: background-color, color 0.3s ease-in;
     }
 }
+@media only screen and (max-width: 480px){
+    #nav-mobile .addational-register {
+        margin-top: 25px;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    #nav-mobile .addational-register a {
+        margin-top: 20px;
+        padding: 13px 90px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: 500;
+        font-size: 1.2em;
+        text-decoration: none;
+        transition: background-color, color 0.3s ease-in;
+    }
+    #nav-mobile .addational-register .sign a {
+        padding: 11px 88px;
+    }
+}

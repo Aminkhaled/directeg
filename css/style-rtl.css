@@ -61,7 +61,7 @@
         padding: 10px 51px;
     }
     #nav .second-logo {
-        margin-left: 140px;
+        margin-left: 130px;
         margin-top: 35px;
     }
     #nav .nav-top .logo img {
@@ -91,7 +91,7 @@
     }
     #nav-mobile .addational-register a {
         margin-top: 20px;
-        padding: 13px 90px;
+        padding: 13px 100px;
         border-radius: 5px;
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
@@ -101,7 +101,7 @@
         transition: background-color, color 0.3s ease-in;
     }
     #nav-mobile .addational-register .sign a {
-        padding: 11px 88px;
+        padding: 11px 98px;
     }
     #form .submit {
         text-align: center;

@@ -47,9 +47,7 @@ tr th{
     padding: 20px;
     border-radius: 20px;
 }
-.gold-info{
-    margin-right: 80px;
-}
+
 .gold-info li{
     margin-bottom: 20px;
     list-style: none;
@@ -69,11 +67,18 @@ tr th{
 #form{
     padding: 15px 0 !important;
 }
+
 /*
 ================
 Media Query for Info
 ================
 */
+
+@media  screen and (min-width:870px) and (max-width: 1500px){
+    .gold-info{
+        margin-right: 80px;
+    }
+}
 @media  screen and (min-width:770px) and (max-width: 850px){
     #sections-hotel .hotel-info {
         width: 100%;
@@ -142,3 +147,4 @@ Media Query for Info
         text-align: center;
     }
 }
+

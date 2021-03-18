@@ -113,6 +113,33 @@
     text-align: right;
     margin-right: 394px;
 }
+/*
+withdraw profit page
+*/
+#withdraw-profit  .hotel-info {
+    width: 100%;
+    margin-right: 255px;
+    margin-top: 20px;
+}
+#withdraw-profit .hotel-info h3 a {
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.gold-info {
+    margin-left: 80px;
+}
+.gold-bank {
+    display: flex;
+    flex-wrap: wrap;
+     padding: 29px;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 20px;
+    direction: rtl;
+}
 @media  screen and (min-width:900px) and (max-width: 1500px){
     #form .form-title {
         display: flex;
@@ -201,10 +228,34 @@
         text-align: right;
 
     }
+    #change-pass .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 10%;
+    }
+    #change-pass .hotel-info {
+        width: 100%;
+        text-align: right;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
     #form form .checkbox-confirm .checkbox {
         margin-bottom: 30px;
         text-align: right;
         margin-right: 195px;
+    }
+    #withdraw-profit .hotel-info {
+        width: 100%;
+        margin-right: 112px;
+        margin-top: 20px;
+        text-align: right;
+    }
+    #withdraw-profit .hotel-info {
+        width: 100%;
+        margin-right: 134px;
+        margin-top: 20px;
+        text-align: right;
     }
 }
 @media only screen and (max-width: 480px){
@@ -277,6 +328,12 @@
         text-align: right;
         margin-right: 85px;
     }
+    #withdraw-profit .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 @media only screen and (max-width: 360px){
     .quote-text p {
@@ -313,5 +370,21 @@
         text-align: right;
         margin-right: 60px;
     }
+    #withdraw-profit .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 0;
+    }
 
+
+    #cold-gold-info .gold-info {
+        margin-left: 0 !important;
+    }
+    #withdraw-profit .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
 }

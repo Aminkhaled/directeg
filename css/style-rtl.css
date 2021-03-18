@@ -55,6 +55,35 @@
     text-align: right;
     margin-right: 16%;
 }
+/* modify cities report page*/
+#sections-hotel {
+    padding: 50px 10px 0;
+    text-align: right;
+}
+#sections-hotel .section-back {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 16%;
+}
+#sections-hotel .hotel-info {
+    width: 100%;
+    margin-right: 179px;
+    margin-top: 20px;
+}
+
+/* change-pass page */
+#change-pass .section-back {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 22%;
+}
+#change-pass .hotel-info {
+    width: 100%;
+    margin-right: 285px;
+    margin-top: 20px;
+}
 @media  screen and (min-width:900px) and (max-width: 1500px){
     #form .form-title {
         display: flex;
@@ -97,6 +126,11 @@
         margin-left: 0;
         margin-right: 110px;
     }
+    #sections-hotel .hotel-info {
+        width: 100%;
+        margin-right: 104px;
+        margin-top: 20px;
+    }
 }
 @media only screen and (max-width: 760px) {
     #nav-mobile .addational-register a {
@@ -113,6 +147,11 @@
     #sections .hotel-info {
         margin-left: 0;
         margin-right: 110px;
+    }
+    #sections .section-title {
+        width: 100%;
+        text-align: right;
+        margin-right: 6%;
     }
 }
 @media only screen and (max-width: 480px){
@@ -160,6 +199,17 @@
         margin-left: 0;
         margin-right: 110px;
     }
+    #sections-hotel .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    #sections-hotel .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 0;
+    }
 }
 @media only screen and (max-width: 360px){
     .quote-text p {
@@ -172,5 +222,16 @@
     #sections .hotel-info {
         margin-left: 0;
         margin-right: 60px;
+    }
+    #sections-hotel .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    #sections-hotel .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 0;
     }
 }

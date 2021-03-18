@@ -802,6 +802,23 @@ Media Quries
     }
 
 }
+@media only screen and (max-width: 360px){
+    #nav-mobile .addational-register a {
+        margin-top: 20px;
+        padding: 13px 80px;
+        border-radius: 5px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        font-weight: 500;
+        font-size: 1.2em;
+        text-decoration: none;
+        transition: background-color,color 0.3s ease-in;
+    }
+
+        #nav-mobile .addational-register .sign a {
+            padding: 13px 130px;
+        }
+}
 
 @media only screen and (max-width: 320px){
     #nav{

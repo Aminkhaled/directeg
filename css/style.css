@@ -802,6 +802,7 @@ Media Quries
     }
 
 }
+
 @media only screen and (max-width: 320px){
     #nav{
         display: none;
@@ -831,7 +832,7 @@ footer .copyright h3 a {
     }
     #nav-mobile .nav-bottom-mobile{
         display: none;
-    }
+  }
 
     #nav-mobile .menu-mobile .icon-span{
         position: absolute;

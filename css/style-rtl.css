@@ -112,4 +112,11 @@
         margin-top: 30px;
         font-weight: 700;
     }
+    .quote-text p {
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }

@@ -48,7 +48,7 @@
 }
     #nav .addational-register a {
         margin-top: 20px;
-        padding: 11px 60px;
+        padding: 11px 55px;
         border-radius: 5px;
         background-color: rgba(0,0,0,0.5);
         color: white;
@@ -58,12 +58,16 @@
         transition: background-color 0.3s ease-in;
     }
     #nav .addational-register .sign a {
-        padding: 10px 55px;
+        padding: 10px 51px;
+    }
+    #nav .second-logo {
+        margin-left: 140px;
+        margin-top: 35px;
     }
     #nav .nav-top .logo img {
         position: absolute;
-        left: 60px;
-        top: 40px;
+        left: 90px;
+        top: 45px;
     }
 }
 @media only screen and (max-width: 760px) {
@@ -112,6 +116,15 @@
         margin-top: 30px;
         font-weight: 700;
     }
+    .quote-text p {
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 360px){
     .quote-text p {
         font-style: italic;
         font-size: 14px;

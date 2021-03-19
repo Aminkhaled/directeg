@@ -17,7 +17,7 @@
 /* modify for menu*/
 #nav .addational-register a {
     margin-top: 20px;
-    padding: 11px 85px;
+    padding: 11px 60px;
     border-radius: 5px;
     background-color: rgba(0,0,0,0.5);
     color: white;
@@ -25,6 +25,9 @@
     font-size: 1.2em;
     text-decoration: none;
     transition: background-color 0.3s ease-in;
+}
+#nav .addational-register .sign a {
+    padding: 10px 57px;
 }
 #nav-mobile .nav-bottom-mobile ul {
     text-align: right;

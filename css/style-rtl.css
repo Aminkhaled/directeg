@@ -478,4 +478,14 @@ withdraw profit page
         text-align: center;
         margin-top: 20px;
     }
+    #container-rtl .section-back {
+        /* width: 84%; */
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 6%;
+    }
+    #container-rtl .hotel-info {
+        margin-left: 0;
+        margin-right: 24px;
+    }
 }

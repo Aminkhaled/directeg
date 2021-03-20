@@ -448,6 +448,30 @@ withdraw profit page
         text-align: center;
         margin-top: 20px;
     }
+    #change-pass .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 0;
+    }
+    #change-pass .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #cities .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 0;
+    }
+    #cities .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 @media only screen and (max-width: 360px){
     .quote-text p {
@@ -535,5 +559,29 @@ withdraw profit page
     #container-rtl .hotel-info {
         margin-left: 0;
         margin-right: 24px;
+    }
+    #change-pass .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 0;
+    }
+    #change-pass .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #cities .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 0;
+    }
+    #cities .hotel-info {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
     }
 }

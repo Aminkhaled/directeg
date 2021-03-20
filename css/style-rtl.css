@@ -243,6 +243,18 @@ withdraw profit page
         margin-top: 20px;
         text-align: right;
     }
+    #change-pass .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 10%;
+    }
+    #change-pass .hotel-info {
+        width: 100%;
+        text-align: right;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
 
 }
 @media only screen and (max-width: 760px) {
@@ -346,6 +358,18 @@ withdraw profit page
         margin-bottom: 30px;
         text-align: right;
         margin-right: 6%;
+    }
+    #change-pass .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 10%;
+    }
+    #change-pass .hotel-info {
+        width: 100%;
+        text-align: right;
+        margin-right: 60px;
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 480px){

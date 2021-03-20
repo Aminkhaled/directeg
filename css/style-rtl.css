@@ -243,6 +243,7 @@ withdraw profit page
         margin-top: 20px;
         text-align: right;
     }
+
 }
 @media only screen and (max-width: 760px) {
     #nav-mobile .addational-register a {
@@ -258,7 +259,7 @@ withdraw profit page
     }
     #sections .hotel-info {
         margin-left: 0;
-        margin-right: 110px;
+        margin-right: 35px;
     }
     #sections .section-title {
         width: 100%;
@@ -339,6 +340,12 @@ withdraw profit page
         margin-right: 123px;
         margin-top: 20px;
         text-align: right;
+    }
+    #container-rtl  .section-back {
+        /* width: 84%; */
+        margin-bottom: 30px;
+        text-align: right;
+        margin-right: 6%;
     }
 }
 @media only screen and (max-width: 480px){

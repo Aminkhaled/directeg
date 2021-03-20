@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/info/hotel-room.css">
-    <link rel="stylesheet" href="css/info/hotel-guest.css">
     <link rel="stylesheet" href="css/style-rtl.css">
-
 </head>
 <body>
+
 <!-- start of  nav for desktop-->
 <section id="nav">
     <div class="container">
@@ -46,11 +45,11 @@
 
                 <div class="switch-lang">
                     <div class="current-lang"><img class="lang-flag" src="img/usa.png"/>
-                        <a class="lang-text" href="my-hotel-guests-report.html">English</a>
+                        <a class="lang-text" href="hotel-rooms-report.html">English</a>
                     </div>
                     <div class="lang-dropdown">
                         <div class="selecting-lang"><img class="lang-flag" src="img/egypt.png"/>
-                            <a class="lang-text" href="تقرير النزلاء.html">Arabic</a>
+                            <a class="lang-text" href="تقرير الغرف.html">Arabic</a>
                         </div>
 
                     </div>
@@ -68,7 +67,6 @@
         </div>
 
     </div>
-
     <nav class="nav-bottom">
         <ul  >
             <li><a href="https://ar.pyramid-challenge.com/">
@@ -118,16 +116,15 @@
                     </h2>
                     <div class="switch-lang">
                         <div class="current-lang"><img class="lang-flag" src="img/usa.png"/>
-                            <a class="lang-text" href="my-hotel-guests-report.html">English</a>
+                            <a class="lang-text" href="hotel-rooms-report.html">English</a>
                         </div>
                         <div class="lang-dropdown">
                             <div class="selecting-lang"><img class="lang-flag" src="img/egypt.png"/>
-                                <a class="lang-text" href="تقرير النزلاء.html">Arabic</a>
+                                <a class="lang-text" href="تقرير الغرف.html">Arabic</a>
                             </div>
 
                         </div>
                     </div>
-
                 </div>
 
                 <!--          text-second-logo  -->
@@ -165,7 +162,7 @@
             <hr>
 
             <li>
-                <a href="بيانات.html">
+                <a href="بياناتى.html">
 
 
                     بياناتى
@@ -175,7 +172,7 @@
             </li>
 
             <li>
-                <a href="تقرير النزلاء.html">
+                <a href="تقرير%20النزلاء.html">
 
 
                     تقرير بنزلاء فندقى
@@ -196,7 +193,7 @@
             </li>
 
             <li>
-                <a href="تقرير%20الغرف.html">
+                <a href="تقرير الغرف.html">
 
 
                     تقرير الغرف الفندقيه
@@ -296,40 +293,60 @@
 <!-- end of nav-->
 <!-- start of form-->
 <section id="sections-hotel">
-   <div id="guest">
+   <div id="rooms">
        <div class="container">
            <div class="section-back">
-               <a href="من%20نحن.html">الرجوع لأقسام الفندق </a>
+               <a href="أقسام%20الفندق.html">
+                   الرجوع لأقسام الفندق
+               </a>
            </div>
        </div>
        <div class="container">
            <div class="hotel-info">
                <h3 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                    <a href="#">
-                       تقرير بنزلاء فندقى
+                       تقرير الغرف الفندقيه
                    </a>
                </h3>
 
            </div>
        </div>
    </div>
-
 </section>
 <!-- end of form -->
-<!-- end of nav-->
+
 <!-- Table -->
 <section class="hotel-guest">
     <div class="container">
+        <div class="options">
+            <select class="jp_ir has-custom-focus _1360x" id="comp-kjta1cd8collection" required="">
+                <option >عرض غرف النزلاء في المدن الفندقية الخاصة بك</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  1</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  2</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  3</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  4</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  5</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  6</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  7</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  8</option>
+                <option >عرض غرف النزلاء بالمدينة رقم:  9</option>
+                <option >عرض غرف النزلاء بالمدينة رقم: 10</option></select>
+        </div>
 
+    </div>
+</section>
+<!--start table-->
+<section class="hotel-guest-table">
+    <div class="container">
         <table>
             <tr>
                 <th>#</th>
-                <th>أسم النزيل</th>
-                <th>رقم الغرفة </th>
-                <th>تاريخ فتح الغرفة </th>
+                <th>أسم النزيل </th>
+                <th>رقم الغرفه </th>
+                <th>تاريخ فتح الغرفه </th>
                 <th>بلد النزيل </th>
-                <th>هاتف النزيل </th>
-                <th>البريد الألكتروني</th>
+                <th>مسجل في الفندق رقم </th>
+                <th>عدد نزلاء فندقه  </th>
 
             </tr>
             <tr>
@@ -403,7 +420,36 @@
                 <td></td>
 
             </tr>
+            <tr>
+                <td>8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
 
+            </tr>
+            <tr>
+                <td>9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
         </table>
     </div>
 </section>

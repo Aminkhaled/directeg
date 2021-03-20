@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/info/hotel-room.css">
+    <link rel="stylesheet" href="css/info/forget-pass.css">
+    <link rel="stylesheet" href="css/info/withdraw-profits.css">
     <link rel="stylesheet" href="css/style-rtl.css">
 </head>
 <body>
-
 <!-- start of  nav for desktop-->
 <section id="nav">
     <div class="container">
@@ -45,11 +46,11 @@
 
                 <div class="switch-lang">
                     <div class="current-lang"><img class="lang-flag" src="img/usa.png"/>
-                        <a class="lang-text" href="hotel-rooms-report.html">English</a>
+                        <a class="lang-text" href="withdraw-profits.html">English</a>
                     </div>
                     <div class="lang-dropdown">
                         <div class="selecting-lang"><img class="lang-flag" src="img/egypt.png"/>
-                            <a class="lang-text" href="تقرير الغرف.html">Arabic</a>
+                            <a class="lang-text" href="الأرباح.html">Arabic</a>
                         </div>
 
                     </div>
@@ -67,6 +68,7 @@
         </div>
 
     </div>
+
     <nav class="nav-bottom">
         <ul  >
             <li><a href="https://ar.pyramid-challenge.com/">
@@ -116,11 +118,11 @@
                     </h2>
                     <div class="switch-lang">
                         <div class="current-lang"><img class="lang-flag" src="img/usa.png"/>
-                            <a class="lang-text" href="hotel-rooms-report.html">English</a>
+                            <a class="lang-text" href="withdraw-profits.html">English</a>
                         </div>
                         <div class="lang-dropdown">
                             <div class="selecting-lang"><img class="lang-flag" src="img/egypt.png"/>
-                                <a class="lang-text" href="تقرير الغرف.html">Arabic</a>
+                                <a class="lang-text" href="الأرباح.html">Arabic</a>
                             </div>
 
                         </div>
@@ -162,7 +164,7 @@
             <hr>
 
             <li>
-                <a href="بيانات.html">
+                <a href="بياناتى.html">
 
 
                     بياناتى
@@ -193,7 +195,7 @@
             </li>
 
             <li>
-                <a href="تقرير الغرف.html">
+                <a href="تقرير%20الغرف.html">
 
 
                     تقرير الغرف الفندقيه
@@ -291,21 +293,18 @@
 
 </section>
 <!-- end of nav-->
-<!-- start of form-->
 <section id="sections-hotel">
-   <div id="rooms">
+   <div id="withdraw-profit">
        <div class="container">
            <div class="section-back">
-               <a href="من%20نحن.html">
-                   الرجوع لأقسام الفندق
-               </a>
+               <a href="من%20نحن.html">الرجوع لأقسام الفندق </a>
            </div>
        </div>
        <div class="container">
            <div class="hotel-info">
                <h3 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                   <a href="#">
-                       تقرير الغرف الفندقيه
+                   <a href="#" id="withdraw-title">
+                       طلب الأرباح
                    </a>
                </h3>
 
@@ -313,41 +312,75 @@
        </div>
    </div>
 </section>
-<!-- end of form -->
-
-<!-- Table -->
-<section class="hotel-guest">
+<!-- start of form-->
+<section id="form">
     <div class="container">
-        <div class="options">
-            <select class="jp_ir has-custom-focus _1360x" id="comp-kjta1cd8collection" required="">
-                <option >عرض غرف النزلاء في المدن الفندقية الخاصة بك</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  1</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  2</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  3</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  4</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  5</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  6</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  7</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  8</option>
-                <option >عرض غرف النزلاء بالمدينة رقم:  9</option>
-                <option >عرض غرف النزلاء بالمدينة رقم: 10</option></select>
+        <div class="gold-bank">
+         <div id="cold-gold-info">
+             <div class="gold-info">
+                 <ul>
+                     <li>
+                         <a href="#">
+                             مجموع أرباحك :  <span> xxx</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="#">
+                             الأرباح المدفوعه : <span> xxx</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="#">
+                            الأرباح المتبقية :<span> xxx</span>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+            <div class="img-gold">
+                <img src="img/img-gold.png" alt="img-gold">
+            </div>
         </div>
 
     </div>
-</section>
-<!--start table-->
-<section class="hotel-guest-table">
     <div class="container">
+        <div class="mount-tip">
+            <h2> سيتم خصم 5% كرسوم تحويل لشركة باى بال</h2>
+        </div>
+    </div>
+    <div class="container">
+
+        <form action="#" class="form">
+            <div class="form-group">
+                <label for="number"></label>
+                <input type="text" class="form-control" id="number" placeholder=" أدخل المبلغ المطلوب-أقل مبلغ $20">
+            </div>
+            <div class="form-group ">
+                <label for="password"></label>
+                <input type="text" class="form-control"  id="password" placeholder="أدخل حساب باى بال لأستلام المبلغ">
+            </div>
+
+            <button class="change " >طلب الأرباح </button>
+        </form>
+    </div>
+</section>
+<!-- end of form -->
+<section class="hotel-guest">
+    <div class="container">
+        <div class="options">
+            <h3>
+                <a href="#">
+                تقرير الأرباح
+                </a>
+            </h3>
+        </div>
         <table>
             <tr>
                 <th>#</th>
-                <th>أسم النزيل </th>
-                <th>رقم الغرفه </th>
-                <th>تاريخ فتح الغرفه </th>
-                <th>بلد النزيل </th>
-                <th>مسجل في الفندق رقم </th>
-                <th>عدد نزلاء فندقه  </th>
-
+                <th>المبلغ</th>
+                <th>تاريخ الطلب</th>
+                <th>مرسل علي حساب باي بال </th>
+                <th>الاجراء</th>
             </tr>
             <tr>
                 <td>1</td>
@@ -355,8 +388,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
 
             </tr>
@@ -366,8 +398,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -376,8 +407,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -386,8 +416,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -396,8 +425,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -406,8 +434,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -416,8 +443,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -426,8 +452,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -436,8 +461,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
             <tr>
@@ -446,14 +470,12 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
+
 
             </tr>
         </table>
     </div>
 </section>
-<!--end of table -->
 <footer>
     <div class="container">
         <div class="copyright">

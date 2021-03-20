@@ -472,6 +472,21 @@ withdraw profit page
         text-align: center;
         margin-top: 20px;
     }
+    .section-field h2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 6px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid black;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 10px;
+        transition: background-color 1s ease-in-out;
+        width: 90%;
+        height: 90%;
+    }
 }
 @media only screen and (max-width: 360px){
     .quote-text p {
@@ -584,5 +599,19 @@ withdraw profit page
         text-align: center;
         margin-top: 20px;
     }
-
+    .section-field h2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 6px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid black;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 10px;
+        transition: background-color 1s ease-in-out;
+        width: 90%;
+        height: 90%;
+    }
 }

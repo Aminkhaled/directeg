@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/info/hotel-room.css">
+    <style>
+        #sections{
+            padding-top: 40px !important;
+            text-align: left;
+        }
+    </style>
 
 </head>
 <body>
-
 
 <!-- start of  nav for desktop-->
 <section id="nav">
@@ -40,11 +46,11 @@
 
                 <div class="switch-lang">
                     <div class="current-lang"><img class="lang-flag" src="img/usa.png"/>
-                        <a class="lang-text" href="index.html">English</a>
+                        <a class="lang-text" href="hotel-rooms-report.html">English</a>
                     </div>
                     <div class="lang-dropdown">
                         <div class="selecting-lang"><img class="lang-flag" src="img/egypt.png"/>
-                            <a class="lang-text" href="تسجيل%20الدخول.html">Arabic</a>
+                            <a class="lang-text" href="تقرير%20الغرف.html">Arabic</a>
                         </div>
 
                     </div>
@@ -53,7 +59,7 @@
                     <a  href="register-new-guest.html">Register New Guest</a>
                 </div>
                 <div class="sign btn">
-                    <a  href="index.html">Sign in</a>
+                    <a  href="sign-in.html">Sign in</a>
                 </div>
             </div>
             <!--        addational-register-->
@@ -105,11 +111,11 @@
                     </h2>
                     <div class="switch-lang">
                         <div class="current-lang"><img class="lang-flag" src="img/usa.png"/>
-                            <a class="lang-text" href="index.html">English</a>
+                            <a class="lang-text" href="hotel-rooms-report.html">English</a>
                         </div>
                         <div class="lang-dropdown">
                             <div class="selecting-lang"><img class="lang-flag" src="img/egypt.png"/>
-                                <a class="lang-text" href="تسجيل%20الدخول.html">Arabic</a>
+                                <a class="lang-text" href="تقرير%20الغرف.html">Arabic</a>
                             </div>
 
                         </div>
@@ -136,7 +142,7 @@
                 <a  href="register-new-guest.html">Register New Guest</a>
             </div>
             <div class="sign btn">
-                <a  href="index.html">Sign in</a>
+                <a  href="sign-in.html">Sign in</a>
             </div>
         </div>
         <!--        addational-register-->
@@ -160,7 +166,7 @@
             </li>
 
             <li>
-                <a href="hotel-guest.html">
+                <a href="my-hotel-guests-report.html">
 
 
                     My Hotel Guests Report
@@ -171,7 +177,7 @@
             </li>
 
             <li>
-                <a href="cities.html">
+                <a href="hotel-cities-report.html">
 
 
                     Hotel Cities Report
@@ -181,7 +187,7 @@
             </li>
 
             <li>
-                <a href="hotel-rooms.html">
+                <a href="hotel-rooms-report.html">
 
 
                     Hotel Rooms Report
@@ -241,7 +247,7 @@
             </li>
 
             <li>
-                <a href="chnage-pass.html">
+                <a href="change-hotel-password.html">
 
                     Change Hotel Password
                     <i class="fas fa-chevron-right"></i>
@@ -280,37 +286,164 @@
 </section>
 <!-- end of nav-->
 <!-- start of form-->
-<section id="form">
-    <div class="form-title">
-        <h2 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-            <a href="index.html">       Login To Your Hotel Account
-            </a></h2>
-    </div>
-
+<section id="sections-hotel">
     <div class="container">
+        <div class="section-back">
+            <a href="hotel-sections.html">Back to Hotel  Sections</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hotel-info">
+            <h3 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <a href="#">
+                    Hotel Rooms Report
+                </a>
+            </h3>
 
-        <form action="#" class="form">
-            <div class="form-group " >
-                <label for="number"></label>
-                <input type="text" class="form-control" id="number" placeholder="Enter your hotel number" required>
-            </div>
-            <div class="form-group ">
-                <label for="password"></label>
-                <input type="password" class="form-control"  id="password" placeholder="Enter your hotel password">
-            </div>
-          <div class="button">
-              <a class="submit " href="about-us.html">Sign In
-                  <i class="fas fa-chevron-right"></i>
-              </a>
-          </div>
-            <a class="forget-pass" href="https://www.pyramid-challenge.com/contact-us">
-                if you forgot your password or your hotel number , click here
-            </a>
-        </form>
-
+        </div>
     </div>
 </section>
 <!-- end of form -->
+
+<!-- Table -->
+<section class="hotel-guest">
+    <div class="container">
+        <div class="options">
+            <select class="jp_ir has-custom-focus _1360x" id="comp-kjta1cd8collection" required="">
+                <option >view guest rooms in your hotel cities</option>
+                <option >view guest rooms in city no : 1</option>
+                <option >view guest rooms in city no : 2</option>
+                <option >view guest rooms in city no : 3</option>
+                <option >view guest rooms in city no : 4</option>
+                <option >view guest rooms in city no : 5</option>
+                <option >view guest rooms in city no : 6</option>
+                <option >view guest rooms in city no : 7</option>
+                <option >view guest rooms in city no : 8</option>
+                <option >view guest rooms in city no : 9</option>
+                <option >view guest rooms in city no : 10</option></select>
+        </div>
+
+    </div>
+</section>
+<!--start table-->
+<section class="hotel-guest-table">
+    <div class="container">
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Guest Name</th>
+                <th>Room number</th>
+                <th>Room open date</th>
+                <th>Guest Country</th>
+                <th>Registered in hotel no</th>
+                <th>His Hotel Guests</th>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>6</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>7</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+        </table>
+    </div>
+</section>
+<!--end of table -->
 <footer>
     <div class="container">
         <div class="copyright">
@@ -330,10 +463,5 @@
 <script src="js/jquery.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/app.js"></script>
-<script>
-
-
-
-</script>
 </body>
 </html>

@@ -263,18 +263,18 @@ Media Query for Info
         width: 90%;
     }
     tr th{
-        font-size: 12px;
+        font-size: 10px;
     }
     tr td{
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 360px){
     tr th{
-        font-size: 12px;
+        font-size: 10px;
     }
     tr td{
-        font-size: 12px;
+        font-size: 10px;
     }
 }

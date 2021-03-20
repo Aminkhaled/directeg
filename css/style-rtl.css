@@ -222,7 +222,27 @@ withdraw profit page
         text-align: right;
         margin-right: 200px;
     }
-
+    .section-field h2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 50px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid black;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 10px;
+        transition: background-color 1s ease-in-out;
+        width: 90%;
+        height: 90%;
+    }
+    #withdraw-profit .hotel-info {
+        width: 100%;
+        margin-right: 121px;
+        margin-top: 20px;
+        text-align: right;
+    }
 }
 @media only screen and (max-width: 760px) {
     #nav-mobile .addational-register a {
@@ -296,6 +316,27 @@ withdraw profit page
     #rooms .hotel-info {
         width: 100%;
         margin-right: 134px;
+        margin-top: 20px;
+        text-align: right;
+    }
+    .section-field h2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 50px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid black;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 10px;
+        transition: background-color 1s ease-in-out;
+        width: 90%;
+        height: 90%;
+    }
+    #withdraw-profit .hotel-info {
+        width: 100%;
+        margin-right: 123px;
         margin-top: 20px;
         text-align: right;
     }
